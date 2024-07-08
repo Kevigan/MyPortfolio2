@@ -6,10 +6,11 @@ import Web4 from './Web4';
 import Web5 from './Web5';
 import Web6 from './Web6';
 import Web7 from './Web7';
+import Web8 from './Web8';
 import '../GameProjects/index.scss';
 
 const WebChanger = () => {
-    const games = [<Web1 />, <Web2 />, <Web3 />, <Web4 />, <Web5/>, <Web6/>, <Web7/>]; 
+    const games = [<Web1 />, <Web2 />, <Web3 />, <Web4 />, <Web5/>, <Web6/>, <Web7/>, <Web8/>]; 
     const [activeGameIndex, setactiveGameIndex] = useState(0);
 
     const handleNextGame = () => {
@@ -34,6 +35,7 @@ const WebChanger = () => {
                 <button className={activeGameIndex === 4 ? 'active' : ''} onClick={() => showGame(4)}>API</button>
                 <button className={activeGameIndex === 5 ? 'active' : ''} onClick={() => showGame(5)}>Own Blog API</button>
                 <button className={activeGameIndex === 6 ? 'active' : ''} onClick={() => showGame(6)}>PostgreSQL</button>
+                <button className={activeGameIndex === 7 ? 'active' : ''} onClick={() => showGame(7)}>PostgreSQL2</button>
             </nav>
             <div className="Gamecontainer">
                 <nav className="navigator">
