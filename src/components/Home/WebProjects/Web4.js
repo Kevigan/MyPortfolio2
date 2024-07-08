@@ -4,19 +4,11 @@ import Band_2 from '../../../assets/images/BandGenerator2.png';
 import Band_3 from '../../../assets/images/BandGenerator3.png';
 import Band_4 from '../../../assets/images/BandGenerator4.png';
 
-const images = [
-    { src: Band_1, alt: 'Image 1' },
-    { src: Band_2, alt: 'Image 2' },
-    { src: Band_3, alt: 'Image 3' },
-    { src: Band_4, alt: 'Image 4' }
-];
-
 const Web4 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {

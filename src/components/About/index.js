@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact, } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact, } from '@fortawesome/free-brands-svg-icons';
 import Edge_3 from '../../assets/images/Edge_3.png';
 import Loader from 'react-loaders';
 
@@ -39,7 +39,7 @@ const About = () => {
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <img className='cube-image' src={Edge_3}/>
+                        <img className='cube-image' src={Edge_3} alt='image cube'/>
                     </div>
                     <div className='face2'>
                         <FontAwesomeIcon icon={faHtml5} color="#F06529"/>

@@ -4,13 +4,11 @@ import OwnAPI_2 from '../../../assets/images/OwnAPI_2.png';
 import OwnAPI_3 from '../../../assets/images/OwnAPI_3.png';
 import OwnAPI_4 from '../../../assets/images/OwnAPI_4.png';
 
-
 const Web6 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {

@@ -2,17 +2,11 @@ import React, { useState } from 'react';
 import HTML_1 from '../../../assets/images/basicHTML.png';
 import HTML_2 from '../../../assets/images/basicHTML2.png';
 
-const images = [
-    { src: HTML_1, alt: 'Image 1' },
-    { src: HTML_2, alt: 'Image 2' }
-];
-
 const Web2 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {

@@ -1,4 +1,3 @@
-import { faChartArea } from '@fortawesome/free-solid-svg-icons';
 import './index.scss'
 
 const AnimatedLetters = ({ letterClass, strArray, idx }) => {

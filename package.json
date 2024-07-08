@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://Kevigan.github.io/MyPortfolio2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

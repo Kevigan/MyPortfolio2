@@ -3,18 +3,11 @@ import Tindog_1 from '../../../assets/images/tinedog1.png';
 import Tindog_2 from '../../../assets/images/tinedog2.png';
 import Tindog_3 from '../../../assets/images/tinedog3.png';
 
-const images = [
-    { src: Tindog_1, alt: 'Image 1' },
-    { src: Tindog_2, alt: 'Image 2' },
-    { src: Tindog_3, alt: 'Image 3' },
-];
-
 const Web3 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {

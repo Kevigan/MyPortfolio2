@@ -4,19 +4,11 @@ import API_2 from '../../../assets/images/API_2.png';
 import API_3 from '../../../assets/images/API_3.png';
 import API_4 from '../../../assets/images/API_4.png';
 
-const images = [
-    { src: API_1, alt: 'Image 1' },
-    { src: API_2, alt: 'Image 2' },
-    { src: API_3, alt: 'Image 3' },
-    { src: API_4, alt: 'Image 4' }
-];
-
 const Web5 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {

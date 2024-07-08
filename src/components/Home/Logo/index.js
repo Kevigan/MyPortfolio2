@@ -1,8 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
-import gsap from 'gsap-trial';
-import { Link, NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { useEffect, useState } from 'react';
 import Edge from '../../../assets/images/Edge.png';
 import DefendersOfTime from '../../../assets/images/DefendersOfTime.png';
 import MoonCrush from '../../../assets/images/MoonCrush.png';

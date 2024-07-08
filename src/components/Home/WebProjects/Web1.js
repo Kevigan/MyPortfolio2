@@ -4,19 +4,11 @@ import Portfolio2 from '../../../assets/images/Portfolio2.png';
 import Portfolio3 from '../../../assets/images/Portfolio3.png';
 import Portfolio4 from '../../../assets/images/Reactsymbol.png';
 
-const images = [
-    { src: Portfolio1, alt: 'Image 1' },
-    { src: Portfolio2, alt: 'Image 2' },
-    { src: Portfolio3, alt: 'Image 3' },
-    { src: Portfolio4, alt: 'Image 4' }
-];
-
 const Web1 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {

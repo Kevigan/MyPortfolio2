@@ -2,19 +2,11 @@ import React, { useState } from 'react';
 import Simon1 from '../../../assets/images/Simon1.png';
 import Simon3 from '../../../assets/images/Simon3.png';
 
-
-const images = [
-    { src: Simon1, alt: 'Image 1' },
-    { src: Simon3, alt: 'Image 2' },
-   
-];
-
 const Game5 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {
@@ -34,7 +26,6 @@ const Game5 = () => {
                 setExpandedImage4(!expanded4);
                 console.log(index);
                 break;
-
         }
     };
     return (

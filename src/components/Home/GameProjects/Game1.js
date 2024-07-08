@@ -4,19 +4,11 @@ import Edge_2 from '../../../assets/images/Edge_2.png';
 import Edge_3 from '../../../assets/images/Edge_3.png';
 import Edge_4 from '../../../assets/images/Edge_4.png';
 
-const images = [
-    { src: Edge_1, alt: 'Image 1' },
-    { src: Edge_2, alt: 'Image 2' },
-    { src: Edge_3, alt: 'Image 3' },
-    { src: Edge_4, alt: 'Image 4' }
-];
-
 const Game1 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
     const [expanded3, setExpandedImage3] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (index) => {
         switch (index) {
