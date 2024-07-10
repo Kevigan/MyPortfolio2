@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import OwnAPI_1 from '../../../assets/images/Permalist_1.png';
-import OwnAPI_2 from '../../../assets/images/Permalist_2.png';
-import OwnAPI_3 from '../../../assets/images/Permalist_3.png';
-import OwnAPI_4 from '../../../assets/images/Permalist_4.png';
+import Permalist_1 from '../../../assets/images/Permalist_1.png';
+import Permalist_2 from '../../../assets/images/Permalist_2.png';
+import Permalist_3 from '../../../assets/images/Permalist_3.png';
+import Permalist_4 from '../../../assets/images/Permalist_4.png';
 
 const Web7 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
@@ -43,13 +43,13 @@ const Web7 = () => {
             </div>
             <div className='game-image-container'>
                 <div className='image-grid'>
-                    <img src={OwnAPI_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={OwnAPI_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={OwnAPI_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
-                    <img src={OwnAPI_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
+                    <img src={Permalist_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
+                    <img src={Permalist_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
+                    <img src={Permalist_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
+                    <img src={Permalist_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
-                <div>
-
+                <div class="video-container">
+                    <img src={Permalist_4}  alt="Game 4"  />
                 </div>
             </div>
         </div>

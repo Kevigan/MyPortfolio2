@@ -39,12 +39,14 @@ const Web2 = () => {
                 </ul>
             </div>
             <div className='game-image-container'>
-                <div className='twoCol'>
+                <div className='image-grid'>
+                    <img src={HTML_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
+                    <img src={HTML_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
                     <img src={HTML_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
                     <img src={HTML_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
                 </div>
-                <div>
-                    
+                <div class="video-container">
+                    <img src={HTML_2}  alt="Game 4"  />
                 </div>
             </div>
         </div>

@@ -44,19 +44,18 @@ const Game5 = () => {
                 <div className='image-grid'>
                     <img src={Simon1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
                     <img src={Simon3} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <p className='playItem'>&#x25BC;&#x25BC;  Play  &#x25BC;&#x25BC;</p>
+                    <img src={Simon1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
+                    <img src={Simon3} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
                 </div>
-                <div>
-                    <div class="video-container">
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://kevigan.github.io/Simon__Says/"
-                            class="responsive-iframe"
-                            frameborder="0"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
+                <div class="video-container">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://kevigan.github.io/Simon__Says/"
+                        class="responsive-iframe"
+                        frameborder="0"
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>

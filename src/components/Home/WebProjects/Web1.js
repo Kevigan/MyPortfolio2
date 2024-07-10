@@ -3,6 +3,7 @@ import Portfolio1 from '../../../assets/images/Portfolio1.png';
 import Portfolio2 from '../../../assets/images/Portfolio2.png';
 import Portfolio3 from '../../../assets/images/Portfolio3.png';
 import Portfolio4 from '../../../assets/images/Reactsymbol.png';
+import '../GameProjects/index.scss';
 
 const Web1 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
@@ -49,8 +50,11 @@ const Web1 = () => {
                     <img src={Portfolio3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                     <img src={Portfolio4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
+                <div class="video-container">
+                    <img src={Portfolio4}  alt="Game 4"  />
+                </div>
                 <div>
-                  
+
                 </div>
             </div>
         </div>

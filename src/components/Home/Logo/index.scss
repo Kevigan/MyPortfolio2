@@ -3,10 +3,13 @@
   flex-direction: column;
   align-items: center;
   z-index: 0;
-  width: 1200px;
-  height: 850px;
-  position: absolute;
+  max-width: 1200px;
+  width: 100%;
+  max-height: 850px;
+  height: 100%;
+  position: relative;
   right: 5%;
+  bottom: 5%;
   margin: auto;
   opacity: 1;
 }
@@ -51,13 +54,13 @@
   //background-color: rgb(46, 106, 134);
   background-image: linear-gradient(to right, #4d9ace, #065ba0);
   color: none;
-  padding: 5px;
   display: flex;
-  width: 99%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
   justify-content: space-around;
   border-radius: 0%;
   border: 2px solid #000;
-  margin: 1px;
   box-shadow: 0px 0px 4px 4px rgba(84, 213, 247, 0.8);
 }
 
@@ -86,17 +89,43 @@ button.active2 {
 }
 
 .content-container {
-  //background shadow
+  display: flex;
   box-shadow: 0px 0px 4px 4px rgba(184, 213, 247, 0.8);
   background-image: linear-gradient(to right, #68bbf1, #1587e4);
-  display: flex;
   justify-content: center;
   align-items: center;
-  //background-color: rgb(46, 106, 134);
   border: 2px solid #000;
   width: 100%;
   height: 100%;
   padding: 0px;
   margin: 5px;
-  object-fit: cover;
 }
+
+// @media (max-width: 1500px) {
+//   .logo-container {
+//     width: 80%;
+//   }
+// }
+
+// /* Media query for smaller screens */
+// @media (max-width: 1024px) {
+//   .logo-container {
+//     width: 60%;
+//   }
+// }
+
+// /* Media query for even smaller screens */
+// @media (max-width: 768px) {
+//   .logo-container {
+//     width: 40%;
+//   }
+// }
+
+// /* Media query for mobile screens */
+// @media (max-width: 480px) {
+//   .logo-container {
+//     width: 95%;
+//     right: 2.5%;
+//     left: 2.5%;
+//   }
+// }

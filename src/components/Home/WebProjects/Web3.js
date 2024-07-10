@@ -45,6 +45,10 @@ const Web3 = () => {
                     <img src={Tindog_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
                     <img src={Tindog_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
                     <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
+                    <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
+                </div>
+                <div class="video-container">
+                    <img src={Tindog_3}  alt="Game 4"  />
                 </div>
             </div>
         </div>

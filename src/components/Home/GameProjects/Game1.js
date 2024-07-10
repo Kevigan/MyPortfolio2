@@ -52,19 +52,17 @@ const Game1 = () => {
                     <img src={Edge_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                     <img src={Edge_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
-                <div>
-                    <div class="video-container">
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/T4q30wdHfPg"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            mozallowfullscreen
-        oallowfullscreen
-        msallowfullscreen>
-                        </iframe>
-                    </div>
+                <div class="video-container">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/T4q30wdHfPg"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        mozallowfullscreen
+                        oallowfullscreen
+                        msallowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
