@@ -34,22 +34,7 @@ const Sidebar = () => (
                     <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
                 </a>
             </li>
-            <li>
-                <a
-                    target="_blank"
-                    rel='noreferrer'
-                    href='https://www.linkedin.com/in/kev-gil-690a93225/'>
-                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
-                </a>
-            </li>
-            <li>
-                <a
-                    target="_blank"
-                    rel='noreferrer'
-                    href='https://www.linkedin.com/in/kev-gil-690a93225/'>
-                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
-                </a>
-            </li>
+           
         </ul>
     </div>
 );
