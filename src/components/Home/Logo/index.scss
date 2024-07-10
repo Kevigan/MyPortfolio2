@@ -63,23 +63,26 @@
 
 .menu-bar button {
   font-size: 13px;
-  background-color: none;
+  background: 0 0 ;
+  color: #fff;
   width: 100px;
   height: 40px;
   margin: 1px;
   border-radius: 0%;
-  border: 2px solid #000;
+  border: 2px solid #ffd700;
   padding: 0px;
-  font-family: 'Coolvetica';
+  font-family: 'Helvetica';
   letter-spacing: 1px;
   box-shadow: 0px 0px 4px 4px rgba(43, 58, 75, 0.8);
 
   &:hover {
     background-color: #c9ab03ce;
+    color: #000;
   }
 }
 button.active2 {
   background-color: #ffd700;
+  color: #000;
 }
 
 .content-container {

@@ -47,9 +47,10 @@ const Contact = () => {
                             idx={15} />
                     </h1>
                     <p>
-                        bla bla bla bla bla bla hey bla bla bla bla bla bla bla bla bla hey bla bla bla
-                        bla bla bla bla bla bla hey bla bla bla bla bla bla bla bla bla hey bla bla bla
-                        bla bla bla bla bla bla hey bla bla bla bla bla bla bla bla bla hey bla bla bla
+                        Phone: 01577 211 3410 <br/>
+                        Email: kevigan88@yahoo.com <br/>
+                        <br/>
+                        or fill out the form
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
@@ -76,10 +77,10 @@ const Contact = () => {
                 <div className='info-map'>
                     Kevin Gilligan,
                     <br />
-                    Germany,
+                    Berlin, Germany
                     <br />
-                    Random Name 19, 22000 <br />
-                    Berlin <br />
+                    Gierkezeile, 10585 <br />
+                     <br />
                     <span>kevigan88@yahoo.com</span>
                 </div>
                 <div className='map-wrap'>

@@ -35,7 +35,7 @@ const Web2 = () => {
                 <h1>HTML</h1>
                 <p>Just some plain old HTML</p>
                 <ul>
-                    <li>Github-Link: </li>
+                    <li>Github-Link: <a href="https://github.com/Kevigan/HTML.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
                 </ul>
             </div>
             <div className='game-image-container'>

@@ -37,7 +37,7 @@ const Web3 = () => {
                 <p>Starting page for a fake tinder app for dogs</p>
                 <ul>
                     <li>Browser link: <a href="https://kevigan.github.io/BootstrapProject/" target="_blank" rel="noopener noreferrer"> Link</a></li>
-                    <li>Github-Link: </li>
+                    <li>Github-Link: <a href="https://github.com/Kevigan/BootstrapProject.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
                 </ul>
             </div>
             <div className='game-image-container'>

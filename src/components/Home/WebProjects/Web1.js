@@ -39,7 +39,7 @@ const Web1 = () => {
                 <ul>
                     <li>Some of the games i made.</li>
                     <li>Some of my web projects. </li>
-                    <li>Github-Link: </li>
+                    <li>Github-Link: <a href="https://github.com/Kevigan/MyPortfolio2.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
                 </ul>
             </div>
             <div className='game-image-container'>

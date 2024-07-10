@@ -41,21 +41,25 @@
     border-radius: 0%;
   }
   .active {
-    background-color: #ffd700; /* Text color for active link */
+    background-color: #ffd700;
+    color: #000;
   }
 
   button {
     font-size: 13px;
-    background-color: aliceblue;
+    background: 0 0;
+    color: #fff;
     margin: 5px;
     border-radius: 0%;
-    border: 2px solid #000;
+    border: 2px solid #ffd700;
     padding: 5px;
-    font-family: 'Coolvetica';
-    letter-spacing: 1px;
+    font-family: 'Helvetica';
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 4px 4px rgba(43, 58, 75, 0.8);
 
     &:hover {
       background-color: #c9ab03ce;
+      color: #000;
     }
   }
 }
@@ -95,7 +99,6 @@
     height: 100%;
     gap: 10px;
     align-items: flex-start;
-
   }
 
   .image-grid {
@@ -105,7 +108,7 @@
     grid-template-rows: auto auto;
     gap: 10px;
     justify-items: auto;
-    align-items:flex-end;
+    align-items: flex-end;
 
     .playItem {
       grid-column: 1 / span 2;
@@ -145,8 +148,6 @@
     height: 315px;
   }
 }
-
-
 
 .description {
   display: flex;

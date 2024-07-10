@@ -68,7 +68,6 @@ const Logo = () => {
             <nav className="menu-bar">
                 <button className={activeGameIndex === 1 ? 'active2' : ''} onClick={() => setActiveButton(1)}>Games </button>
                 <button className={activeGameIndex === 2 ? 'active2' : ''} onClick={() => setActiveButton(2)}>Web Dev </button>
-                <button className={activeGameIndex === 3 ? 'active2' : ''} onClick={() => setActiveButton(3)}>Skills </button>
             </nav>
             <div className="content-container">
                     
