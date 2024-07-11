@@ -33,6 +33,7 @@ const Game5 = () => {
             <div className='description'>
                 <h1>Simon Says</h1>
                 <p>This is a simple Simon says game for your WebBrowser. The code for this game is not embedded on this website; it is a link to another site i made. </p>
+                <p>Play it right here!</p>
                 <ul>
                     <li>Engine: Unreal Engine 5.2</li>
                     <li>Plattform: PC</li>

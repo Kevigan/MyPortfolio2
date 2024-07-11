@@ -45,8 +45,8 @@ const Game6 = () => {
                 <div className='image-grid'>
                     <img src={CJ1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
                     <img src={CJ2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={CJ3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(1)} />
-                    <img src={CJ4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(2)} />
+                    <img src={CJ3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
+                    <img src={CJ4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
                 <iframe className='video-frame'
