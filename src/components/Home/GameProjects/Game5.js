@@ -37,7 +37,7 @@ const Game5 = () => {
                     <li>Engine: Unreal Engine 5.2</li>
                     <li>Plattform: PC</li>
                     <li>Browser link: <a href="https://kevigan.github.io/Simon__Says/" target="_blank" rel="noopener noreferrer"> Link</a></li>
-                    <li>Github-Link: </li>
+                    <li>Github-Link: <a href="https://github.com/Kevigan/Simon__Says.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
                 </ul>
             </div>
             <div className='game-image-container'>
@@ -48,7 +48,7 @@ const Game5 = () => {
                     <img src={Simon3} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
                 </div>
                 <div class="video-container">
-                    <iframe
+                    <iframe 
                         width="560"
                         height="315"
                         src="https://kevigan.github.io/Simon__Says/"

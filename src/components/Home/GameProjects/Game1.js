@@ -35,14 +35,19 @@ const Game1 = () => {
         <div className="game-content">
             <div className='description'>
                 <h1>Project Edge</h1>
-                <p>This game is a 3 vs 3 Multiplayer Shooter. Each round lasts 10 min or ends when one team reaches 30 kills. The team, which won the most after 10 rounds wins. Visually inspired by Happy Tree Friends.</p>
+                <p>This game is a 3 vs 3 Multiplayer Shooter. Each round lasts 10 min or ends when one team reaches 30 kills.
+                    The team, which won the most after 10 rounds wins. Visually inspired by Happy Tree Friends.
+                </p>
+                <p>
+                    This was mainly built with C++.
+                </p>
                 <ul>
                     <li>Engine: Unreal Engine 5.2</li>
                     <li>Plattform: PC</li>
                     <li>Controller supported</li>
                     <li>Team size: 6</li>
                     <li>Time: 8 weeks</li>
-                    <li>Github-Link: </li>
+                    <li>Github-Link: <a href="https://github.com/Kevigan/EdgeCode.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
                 </ul>
             </div>
             <div className='game-image-container'>
@@ -53,7 +58,7 @@ const Game1 = () => {
                     <img src={Edge_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
-                    <iframe
+                    <iframe className='video-frame'
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/T4q30wdHfPg"

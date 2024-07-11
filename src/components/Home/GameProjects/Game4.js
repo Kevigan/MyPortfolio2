@@ -35,7 +35,10 @@ const Game4 = () => {
         <div className="game-content">
             <div className='description'>
                 <h1>MoonCrush</h1>
-                <p>This game is a 3D pinball platformer. </p>
+                <p>This game is a 3D pinball platformer. As the pinball moves from area to area, your camera will follow showing different parts of the level.</p>
+                <p>
+                    This was mainly built with blueprints.
+                </p>
                 <ul>
                     <li>Engine: Unreal Engine 4.7</li>
                     <li>Plattform: PC</li>
@@ -51,7 +54,7 @@ const Game4 = () => {
                     <img src={MC_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
-                    <iframe
+                    <iframe className='video-frame'
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/wZU-oVwlako"

@@ -35,7 +35,12 @@ const Game3 = () => {
         <div className="game-content">
             <div className='description'>
                 <h1>Defenders of Time</h1>
-                <p>This game is a Tower Defense meets Tetris game. By defeating enemies you gain blocks to play Tetris. By destroying tetris rows you gain building blocks with which you can buy new towers.</p>
+                <p>This game is a Tower Defense meets Tetris game. By defeating enemies you gain blocks to play Tetris.
+                    By destroying tetris rows you gain building blocks with which you can buy new towers.
+                </p>
+                <p>
+                    This was mainly built with blueprints.
+                </p>
                 <ul>
                     <li>Engine: Unreal Engine 4.7</li>
                     <li>Plattform: PC</li>
@@ -51,7 +56,7 @@ const Game3 = () => {
                     <img src={DOT_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
-                    <iframe
+                    <iframe className='video-frame'
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/fJfjScOjvBo"

@@ -35,13 +35,18 @@ const Game2 = () => {
         <div className="game-content">
             <div className='description'>
                 <h1>Learning Unreals GAS</h1>
-                <p> This is a learning project about learning the fundamentals of unreal GAS. I learned how to implement a Ability System, Attribute Set, using  Gameplay Effects/Abilities and much more. </p>
+                <p> This is a learning project about learning the fundamentals of unreal GAS.
+                    I learned how to implement a Ability System, Attribute Set, using  Gameplay Effects/Abilities and much more.
+                </p>
+                <p>
+                    This was mainly built with C++.
+                </p>
                 <ul>
                     <li>Engine: Unreal Engine 5.2</li>
                     <li>Plattform: PC</li>
                     <li>Controller supported</li>
                     <li>Time: 6 weeks</li>
-                    <li>Github-Link: </li>
+                    <li>Github-Link: <a href="https://github.com/Kevigan/Unreal-GAS.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
                 </ul>
             </div>
             <div className='game-image-container'>
@@ -52,7 +57,7 @@ const Game2 = () => {
                     <img src={GAS_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
-                    <iframe
+                    <iframe className='video-frame'
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/UT96AgEp_pw"

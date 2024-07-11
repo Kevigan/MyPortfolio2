@@ -73,7 +73,7 @@
     padding-right: 5px;
     padding-bottom: 5px;
 
-    a{
+    a {
       color: #ffd700;
     }
 
@@ -82,7 +82,7 @@
       margin: 0;
       padding: 0;
     }
-    h1{
+    h1 {
       color: aliceblue;
     }
     p {
@@ -106,8 +106,8 @@
     flex: 8;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    padding-top: 0;
+    padding: 0px;
+    padding-right: 5px;
     padding-bottom: 0px;
     border: rgba(0, 0, 0, 0);
 
@@ -121,7 +121,7 @@
       img.normal {
         width: 100%;
         max-width: 300;
-        height: 95%;
+        height: 100%;
         max-height: 185px;
         //box-shadow: 0px 0px 4px 4px rgba(43, 58, 75, 0.8);
         border: 2px solid #000;
@@ -152,10 +152,19 @@
       //box-shadow: 0px 0px 4px 4px rgba(43, 58, 75, 0.8); /* Optional shadow */
       border: 2px solid #000;
 
-      iframe, img {
+      .video-frame,
+      img {
         width: 100%;
         height: 100%;
         object-fit: cover; /* Cover the area, maintaining aspect ratio */
+      }
+
+      .responsive-iframe {
+        width: 333% !important;
+        height: 333% !important;
+        -webkit-transform: scale(0.3);
+        transform: scale(0.3);
+        -webkit-transform-origin: 0 0;
       }
     }
   }
@@ -184,8 +193,8 @@
       }
     }
   }
-  .top-game-container{
-    button{
+  .top-game-container {
+    button {
       font-size: 9px;
     }
   }
