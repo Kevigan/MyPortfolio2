@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Tindog_1 from '../../../assets/images/tinedog1.png';
 import Tindog_2 from '../../../assets/images/tinedog2.png';
 import Tindog_3 from '../../../assets/images/tinedog3.png';
+import Bootstrap_Icon from '../../../assets/images/bootstrap_Icon.png';
 
 const Web3 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
@@ -47,8 +48,8 @@ const Web3 = () => {
                     <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                     <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                 </div>
-                <div class="video-container">
-                    <img src={Tindog_3}  alt="Game 4"  />
+                <div class="pic-container">
+                    <img src={Bootstrap_Icon}  alt="Game 4"  />
                 </div>
             </div>
         </div>

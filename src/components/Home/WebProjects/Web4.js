@@ -3,6 +3,7 @@ import Band_1 from '../../../assets/images/BandGenerator1.png';
 import Band_2 from '../../../assets/images/BandGenerator2.png';
 import Band_3 from '../../../assets/images/BandGenerator3.png';
 import Band_4 from '../../../assets/images/BandGenerator4.png';
+import EJS_Icon from '../../../assets/images/EJS_Icon.png';
 
 const Web4 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
@@ -48,8 +49,8 @@ const Web4 = () => {
                     <img src={Band_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                     <img src={Band_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
-                <div class="video-container">
-                    <img src={Band_4}  alt="Game 4"  />
+                <div class="pic-container">
+                    <img src={EJS_Icon}  alt="Game 4"  />
                 </div>
             </div>
         </div>

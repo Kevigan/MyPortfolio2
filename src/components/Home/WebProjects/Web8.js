@@ -3,6 +3,7 @@ import FT_1 from '../../../assets/images/familyTracker_1.png';
 import FT_2 from '../../../assets/images/familyTracker_2.png';
 import FT_3 from '../../../assets/images/familyTracker_3.png';
 import FT_4 from '../../../assets/images/familyTracker_4.png';
+import Postgres_Icon2 from '../../../assets/images/PostgreSQL_Icon2.png';
 
 const Web8 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
@@ -48,8 +49,8 @@ const Web8 = () => {
                     <img src={FT_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                     <img src={FT_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
-                <div class="video-container">
-                    <img src={FT_4}  alt="Game 4"  />
+                <div class="pic-container">
+                    <img src={Postgres_Icon2}  alt="Game 4"  />
                 </div>
             </div>
         </div>

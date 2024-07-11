@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HTML_1 from '../../../assets/images/basicHTML.png';
 import HTML_2 from '../../../assets/images/basicHTML2.png';
+import HTML_Icon from '../../../assets/images/html_Icon.png';
 
 const Web2 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
@@ -45,8 +46,8 @@ const Web2 = () => {
                     <img src={HTML_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
                     <img src={HTML_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
                 </div>
-                <div class="video-container">
-                    <img src={HTML_2}  alt="Game 4"  />
+                <div class="pic-container">
+                    <img src={HTML_Icon}  alt="Game 4"  />
                 </div>
             </div>
         </div>

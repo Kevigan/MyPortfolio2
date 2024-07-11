@@ -4,10 +4,12 @@ import Game2 from './Game2';
 import Game3 from './Game3';
 import Game4 from './Game4';
 import Game5 from './Game5';
+import Game6 from './Game6';
+import Game7 from './Game7';
 import './index.scss';
 
 const GameChanger = () => {
-    const games = [<Game1 />, <Game2 />, <Game3 />, <Game4 />, <Game5 />]; 
+    const games = [<Game1 />, <Game2 />, <Game3 />, <Game4 />, <Game5 />, <Game6 />, <Game7 />]; 
     const [activeGameIndex, setactiveGameIndex] = useState(0);
 
     const handleNextGame = () => {
@@ -30,6 +32,8 @@ const GameChanger = () => {
                 <button className={activeGameIndex === 2 ? 'active' : ''} onClick={() => showGame(2)}>DefendersOfTime</button>
                 <button className={activeGameIndex === 3 ? 'active' : ''} onClick={() => showGame(3)}>MoonCrush</button>
                 <button className={activeGameIndex === 4 ? 'active' : ''} onClick={() => showGame(4)}>BrowserGame</button>
+                <button className={activeGameIndex === 5 ? 'active' : ''} onClick={() => showGame(5)}>CloudJump</button>
+                <button className={activeGameIndex === 6 ? 'active' : ''} onClick={() => showGame(6)}>TwitchChat</button>
             </nav>
             <div className="Gamecontainer">
                 <nav className="navigator">

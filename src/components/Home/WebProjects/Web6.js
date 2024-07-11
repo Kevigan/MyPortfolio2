@@ -3,6 +3,7 @@ import OwnAPI_1 from '../../../assets/images/OwnAPI_1.png';
 import OwnAPI_2 from '../../../assets/images/OwnAPI_2.png';
 import OwnAPI_3 from '../../../assets/images/OwnAPI_3.png';
 import OwnAPI_4 from '../../../assets/images/OwnAPI_4.png';
+import API_Icon from '../../../assets/images/API_Icon.png';
 
 const Web6 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
@@ -48,8 +49,8 @@ const Web6 = () => {
                     <img src={OwnAPI_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                     <img src={OwnAPI_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
-                <div class="video-container">
-                    <img src={OwnAPI_4}  alt="Game 4"  />
+                <div class="pic-container">
+                    <img src={API_Icon}  alt="Game 4"  />
                 </div>
             </div>
         </div>

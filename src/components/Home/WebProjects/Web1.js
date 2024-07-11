@@ -50,7 +50,7 @@ const Web1 = () => {
                     <img src={Portfolio3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
                     <img src={Portfolio4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
-                <div class="video-container">
+                <div class="pic-container">
                     <img src={Portfolio4}  alt="Game 4"  />
                 </div>
                 <div>
