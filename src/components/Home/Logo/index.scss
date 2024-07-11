@@ -4,7 +4,7 @@
   align-items: center;
   z-index: 0;
   max-width: 1200px;
-  width: 100%;
+  width: 75%;
   max-height: 850px;
   height: 90%;
   position: relative;
@@ -110,9 +110,9 @@ button.active2 {
 // }
 
 /* Media query for smaller screens */
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
   .logo-container {
-    width: 60%;
+    width: 70%;
   }
 }
 
