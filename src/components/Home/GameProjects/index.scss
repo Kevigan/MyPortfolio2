@@ -209,23 +209,23 @@
   }
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
   .game-content {
     .description {
       h1 {
-        font-size: 10px;
+        font-size: 12px;
       }
       p {
-        font-size: 10px;
+        font-size: 12px;
       }
       li {
-        font-size: 10px;
+        font-size: 12px;
       }
     }
   }
   .top-game-container {
     button {
-      font-size: 9px;
+      font-size: 7px;
     }
   }
 }

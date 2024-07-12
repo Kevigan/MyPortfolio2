@@ -15,8 +15,8 @@
     color: #fff;
     font-size: 39px;
     margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
+    font-family: 'Helvetica';
+    font-weight: 1100;
 
     &::before {
       content: '<h1>';
@@ -43,7 +43,7 @@
 
     img {
       width: 130px;
-      margin-left: 20px;
+      margin-left: 10px;
       opacity: 0;
       height: auto;
       animation: rotateIn 1s linear both;
@@ -58,7 +58,7 @@
     font-weight: 400;
     font-size: 11px;
     font-family: sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     animation: fadeIn 1s 1.8s backwards;
   }
 
@@ -90,6 +90,18 @@
       font-size: 30px;
       img {
         width: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .text-zone {
+    left: 8%;
+    h1 {
+      font-size: 23px;
+      img {
+        width: 65px;
       }
     }
   }
