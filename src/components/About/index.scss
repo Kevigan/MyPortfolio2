@@ -84,3 +84,13 @@
     transform: rotateX(90deg);
   }
 }
+
+@media (max-width: 1024px){
+  .self-portrait {
+    max-width: 120px;
+    position: relative;
+    left: 300px; 
+    top: -10px;
+    border: 2px solid #000;
+  }
+}

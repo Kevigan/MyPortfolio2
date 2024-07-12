@@ -1,9 +1,9 @@
 .skills-page {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  margin-left: 5%;
+  margin-left: 8%;
   width: 90%;
   height: 100%;
 
@@ -53,6 +53,67 @@
 
       .star.filled {
         color: gold;
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .skills-page {
+    margin-left: 18%;
+    width: 70%;
+    height: 90%;
+
+    .skill-content {
+      .skills-list {
+        width: 100%;
+        padding: 20px;
+        .skill {
+          margin-bottom: 10px;
+          width: 300px;
+        }
+  
+        .skill-name {
+          font-size: 22px;
+        }
+  
+        .skill-stars {
+          flex: 5;
+        }
+  
+        .star {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .skills-page {
+    margin-left: 18%;
+    width: 70%;
+    height: 90%;
+
+    .skill-content {
+      .skills-list {
+        width: 100%;
+        padding: 15px;
+        .skill {
+          margin-bottom: 10px;
+          width: 250px;
+        }
+  
+        .skill-name {
+          font-size: 17px;
+        }
+  
+        .skill-stars {
+          flex: 5;
+        }
+  
+        .star {
+          font-size: 25px;
+        }
       }
     }
   }
