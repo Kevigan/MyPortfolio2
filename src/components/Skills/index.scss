@@ -8,6 +8,7 @@
   height: 100%;
 
   h1 {
+    flex: 1;
     color: white;
     font-size: 40px;
     margin-bottom: 100px;
@@ -21,6 +22,7 @@
     border: 2px solid #000;
     box-shadow: 0px 0px 4px 4px rgba(43, 58, 75, 0.8);
     background-image: linear-gradient(to right, #024a7a, #1b6eb3);
+    height:75%;
 
     .skills-list {
       width: 100%;
@@ -29,7 +31,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 10px;
-        width: 400px;
+        width: 100%;
       }
 
       .skill-name {
@@ -63,13 +65,17 @@
     width: 70%;
     height: 90%;
 
+    h1 {
+      margin-bottom: 50px;
+    }
+
     .skill-content {
       .skills-list {
         width: 100%;
         padding: 20px;
         .skill {
           margin-bottom: 10px;
-          width: 300px;
+          width: 100%;
         }
   
         .skill-name {
@@ -100,7 +106,7 @@
         padding: 15px;
         .skill {
           margin-bottom: 10px;
-          width: 250px;
+          width: 100%;
         }
   
         .skill-name {
