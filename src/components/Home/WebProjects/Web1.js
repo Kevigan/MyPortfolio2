@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Portfolio1 from '../../../assets/images/Portfolio1.png';
-import Portfolio2 from '../../../assets/images/Portfolio2.png';
-import Portfolio3 from '../../../assets/images/Portfolio3.png';
+import Portfolio1 from '../../../assets/images/Portfolio1.jpg';
+import Portfolio2 from '../../../assets/images/Portfolio2.jpg';
+import Portfolio3 from '../../../assets/images/Portfolio3.jpg';
 import Portfolio4 from '../../../assets/images/Reactsymbol.png';
 import '../GameProjects/index.scss';
 

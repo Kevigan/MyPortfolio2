@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import TW_1 from '../../../assets/images/Twitch_1.png';
-import TW_2 from '../../../assets/images/Twitch_2.png';
-import TW_3 from '../../../assets/images/Twitch_3.png';
-import TW_4 from '../../../assets/images/Twitch_4.png';
+import TW_1 from '../../../assets/images/Twitch_1.jpg';
+import TW_2 from '../../../assets/images/Twitch_2.jpg';
+import TW_3 from '../../../assets/images/Twitch_3.jpg';
+import TW_4 from '../../../assets/images/Twitch_4.jpg';
 
 const Game7 = () => {
     const [expanded1, setExpandedImage1] = useState(false);

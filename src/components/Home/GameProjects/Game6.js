@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import CJ1 from '../../../assets/images/Cloud_jumper_1.png';
-import CJ2 from '../../../assets/images/Cloud_jumper_2.png';
-import CJ3 from '../../../assets/images/Cloud_jumper_3.png';
-import CJ4 from '../../../assets/images/Cloud_jumper_4.png';
+import CJ1 from '../../../assets/images/Cloud_jumper_1.jpg';
+import CJ2 from '../../../assets/images/Cloud_jumper_2.jpg';
+import CJ3 from '../../../assets/images/Cloud_jumper_3.jpg';
+import CJ4 from '../../../assets/images/Cloud_jumper_4.jpg';
 
 const Game6 = () => {
     const [expanded1, setExpandedImage1] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import API_1 from '../../../assets/images/API_1.png';
-import API_2 from '../../../assets/images/API_2.png';
+import API_1 from '../../../assets/images/API_1.jpg';
+import API_2 from '../../../assets/images/API_2.jpg';
 import API_3 from '../../../assets/images/API_3.png';
 import API_4 from '../../../assets/images/API_4.png';
 import API_Icon from '../../../assets/images/API_Icon.png';

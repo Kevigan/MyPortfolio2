@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Permalist_1 from '../../../assets/images/Permalist_1.png';
-import Permalist_2 from '../../../assets/images/Permalist_2.png';
-import Permalist_3 from '../../../assets/images/Permalist_3.png';
-import Permalist_4 from '../../../assets/images/Permalist_4.png';
+import Permalist_1 from '../../../assets/images/Permalist_1.jpg';
+import Permalist_2 from '../../../assets/images/Permalist_2.jpg';
+import Permalist_3 from '../../../assets/images/Permalist_3.jpg';
+import Permalist_4 from '../../../assets/images/Permalist_4.jpg';
 import Postgres_Icon2 from '../../../assets/images/PostgreSQL_Icon2.png';
 
 const Web7 = () => {

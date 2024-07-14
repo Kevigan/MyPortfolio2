@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Band_1 from '../../../assets/images/BandGenerator1.png';
-import Band_2 from '../../../assets/images/BandGenerator2.png';
-import Band_3 from '../../../assets/images/BandGenerator3.png';
-import Band_4 from '../../../assets/images/BandGenerator4.png';
+import Band_1 from '../../../assets/images/BandGenerator1.jpg';
+import Band_2 from '../../../assets/images/BandGenerator2.jpg';
+import Band_3 from '../../../assets/images/BandGenerator3.jpg';
+import Band_4 from '../../../assets/images/BandGenerator4.jpg';
 import EJS_Icon from '../../../assets/images/EJS_Icon.png';
 
 const Web4 = () => {

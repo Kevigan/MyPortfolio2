@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import FT_1 from '../../../assets/images/familyTracker_1.png';
-import FT_2 from '../../../assets/images/familyTracker_2.png';
-import FT_3 from '../../../assets/images/familyTracker_3.png';
-import FT_4 from '../../../assets/images/familyTracker_4.png';
+import FT_1 from '../../../assets/images/familyTracker_1.jpg';
+import FT_2 from '../../../assets/images/familyTracker_2.jpg';
+import FT_3 from '../../../assets/images/familyTracker_3.jpg';
+import FT_4 from '../../../assets/images/familyTracker_4.jpg';
 import Postgres_Icon2 from '../../../assets/images/PostgreSQL_Icon2.png';
 
 const Web8 = () => {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import MC_1 from '../../../assets/images/MoonCrush1.png';
-import MC_2 from '../../../assets/images/MoonCrush2.png';
-import MC_3 from '../../../assets/images/MoonCrush3.png';
-import MC_4 from '../../../assets/images/MoonCrush4.png';
+import MC_1 from '../../../assets/images/MoonCrush1.jpg';
+import MC_2 from '../../../assets/images/MoonCrush2.jpg';
+import MC_3 from '../../../assets/images/MoonCrush3.jpg';
+import MC_4 from '../../../assets/images/MoonCrush4.jpg';
 
 const Game4 = () => {
     const [expanded1, setExpandedImage1] = useState(false);

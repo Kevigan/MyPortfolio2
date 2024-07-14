@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Edge_1 from '../../../assets/images/Edge_1.png';
-import Edge_2 from '../../../assets/images/Edge_2.png';
-import Edge_3 from '../../../assets/images/Edge_3.png';
-import Edge_4 from '../../../assets/images/Edge_4.png';
+import Edge_1 from '../../../assets/images/Edge_1.jpg';
+import Edge_2 from '../../../assets/images/Edge_2.jpg';
+import Edge_3 from '../../../assets/images/Edge_3.jpg';
+import Edge_4 from '../../../assets/images/Edge_4.jpg';
 
 const Game1 = () => {
     const [expanded1, setExpandedImage1] = useState(false);

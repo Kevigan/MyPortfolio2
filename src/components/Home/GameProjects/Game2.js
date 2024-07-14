@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import GAS_1 from '../../../assets/images/GAS_1.png';
-import GAS_2 from '../../../assets/images/GAS_2.png';
-import GAS_3 from '../../../assets/images/GAS_3.png';
-import GAS_4 from '../../../assets/images/GAS_4.png';
+import GAS_1 from '../../../assets/images/GAS_1.jpg';
+import GAS_2 from '../../../assets/images/GAS_2.jpg';
+import GAS_3 from '../../../assets/images/GAS_3.jpg';
+import GAS_4 from '../../../assets/images/GAS_4.jpg';
 
 const Game2 = () => {
     const [expanded1, setExpandedImage1] = useState(false);

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import OwnAPI_1 from '../../../assets/images/OwnAPI_1.png';
-import OwnAPI_2 from '../../../assets/images/OwnAPI_2.png';
-import OwnAPI_3 from '../../../assets/images/OwnAPI_3.png';
-import OwnAPI_4 from '../../../assets/images/OwnAPI_4.png';
+import OwnAPI_1 from '../../../assets/images/OwnAPI_1.jpg';
+import OwnAPI_2 from '../../../assets/images/OwnAPI_2.jpg';
+import OwnAPI_3 from '../../../assets/images/OwnAPI_3.jpg';
+import OwnAPI_4 from '../../../assets/images/OwnAPI_4.jpg';
 import API_Icon from '../../../assets/images/API_Icon.png';
 
 const Web6 = () => {

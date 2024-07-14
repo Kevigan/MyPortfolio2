@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Tindog_1 from '../../../assets/images/tinedog1.png';
-import Tindog_2 from '../../../assets/images/tinedog2.png';
-import Tindog_3 from '../../../assets/images/tinedog3.png';
+import Tindog_1 from '../../../assets/images/tinedog1.jpg';
+import Tindog_2 from '../../../assets/images/tinedog2.jpg';
+import Tindog_3 from '../../../assets/images/tinedog3.jpg';
 import Bootstrap_Icon from '../../../assets/images/bootstrap_Icon.png';
 
 const Web3 = () => {

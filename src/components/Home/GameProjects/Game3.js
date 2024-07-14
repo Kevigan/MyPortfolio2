@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import DOT_1 from '../../../assets/images/DOT_1.png';
-import DOT_2 from '../../../assets/images/DOT_2.png';
-import DOT_3 from '../../../assets/images/DOT_3.png';
-import DOT_4 from '../../../assets/images/DOT_4.png';
+import DOT_1 from '../../../assets/images/DOT_1.jpg';
+import DOT_2 from '../../../assets/images/DOT_2.jpg';
+import DOT_3 from '../../../assets/images/DOT_3.jpg';
+import DOT_4 from '../../../assets/images/DOT_4.jpg';
 
 const Game3 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
