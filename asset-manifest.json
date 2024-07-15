@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio2/static/css/main.ce5d9770.css",
-    "main.js": "/MyPortfolio2/static/js/main.6630da84.js",
+    "main.css": "/MyPortfolio2/static/css/main.11fdb5cc.css",
+    "main.js": "/MyPortfolio2/static/js/main.dd54e8d4.js",
     "static/js/453.ace21015.chunk.js": "/MyPortfolio2/static/js/453.ace21015.chunk.js",
     "static/media/MyPic.jpg": "/MyPortfolio2/static/media/MyPic.23a1286fd374c039ca41.jpg",
     "static/media/Twitch_2.jpg": "/MyPortfolio2/static/media/Twitch_2.3884748a4f321243ddfa.jpg",
@@ -11,6 +11,8 @@
     "static/media/DOT_2.jpg": "/MyPortfolio2/static/media/DOT_2.309c40940fcb152fb940.jpg",
     "static/media/DOT_4.jpg": "/MyPortfolio2/static/media/DOT_4.5af867e13fc7b5922015.jpg",
     "static/media/DOT_1.jpg": "/MyPortfolio2/static/media/DOT_1.5695a81b3dc4c87644a0.jpg",
+    "static/media/Pokemon_4.jpg": "/MyPortfolio2/static/media/Pokemon_4.160d12d528b63b52c529.jpg",
+    "static/media/Pokemon_3.jpg": "/MyPortfolio2/static/media/Pokemon_3.1e6374511a6157aea40c.jpg",
     "static/media/Cloud_jumper_1.jpg": "/MyPortfolio2/static/media/Cloud_jumper_1.6e97a58b36092d3f3dbd.jpg",
     "static/media/PostgreSQL_Icon2.png": "/MyPortfolio2/static/media/PostgreSQL_Icon2.6fe40ccb21368b20ae06.png",
     "static/media/Portfolio1.jpg": "/MyPortfolio2/static/media/Portfolio1.5b4f99c949530db58637.jpg",
@@ -25,8 +27,10 @@
     "static/media/Cloud_jumper_4.jpg": "/MyPortfolio2/static/media/Cloud_jumper_4.34501ae44a1dea738ddc.jpg",
     "static/media/MoonCrush4.jpg": "/MyPortfolio2/static/media/MoonCrush4.10e82bbe70d4aa82abc9.jpg",
     "static/media/Edge_2.jpg": "/MyPortfolio2/static/media/Edge_2.8ca128d668c5842d4c6e.jpg",
+    "static/media/Pokemon_1.jpg": "/MyPortfolio2/static/media/Pokemon_1.694b11d1f67ee6981feb.jpg",
     "static/media/MoonCrush3.jpg": "/MyPortfolio2/static/media/MoonCrush3.4386fa2a397c921c6a17.jpg",
     "static/media/MoonCrush2.jpg": "/MyPortfolio2/static/media/MoonCrush2.0796e4a544711802564c.jpg",
+    "static/media/Pokemon_2.jpg": "/MyPortfolio2/static/media/Pokemon_2.b577a2386b563397b576.jpg",
     "static/media/Permalist_2.jpg": "/MyPortfolio2/static/media/Permalist_2.75a4425041282bca7aa3.jpg",
     "static/media/MoonCrush1.jpg": "/MyPortfolio2/static/media/MoonCrush1.f305921eaf07532327bf.jpg",
     "static/media/familyTracker_4.jpg": "/MyPortfolio2/static/media/familyTracker_4.6e932e6f5464c484cfdd.jpg",
@@ -73,12 +77,12 @@
     "static/media/programmingIcon.png": "/MyPortfolio2/static/media/programmingIcon.c29ef1f335e5f30001d8.png",
     "static/media/CoolveticaRg-Regular.woff2": "/MyPortfolio2/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/MyPortfolio2/index.html",
-    "main.ce5d9770.css.map": "/MyPortfolio2/static/css/main.ce5d9770.css.map",
-    "main.6630da84.js.map": "/MyPortfolio2/static/js/main.6630da84.js.map",
+    "main.11fdb5cc.css.map": "/MyPortfolio2/static/css/main.11fdb5cc.css.map",
+    "main.dd54e8d4.js.map": "/MyPortfolio2/static/js/main.dd54e8d4.js.map",
     "453.ace21015.chunk.js.map": "/MyPortfolio2/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce5d9770.css",
-    "static/js/main.6630da84.js"
+    "static/css/main.11fdb5cc.css",
+    "static/js/main.dd54e8d4.js"
   ]
 }
