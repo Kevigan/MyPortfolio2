@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import GameChanger from '../../Home/GameProjects/index';
 import WebChanger from '../../Home/WebProjects/index';
+import GameWebChanger from '../../Home/Game+Web/index';
 
 import './index.scss';
 
@@ -33,7 +34,7 @@ const Logo = () => {
             case 'webDev':
                 return <WebDev />;
             case 'skills':
-                return <Skills />;
+                return <GameWeb />;
             default:
                 return <Games />;
         }
@@ -61,6 +62,7 @@ const Logo = () => {
             <nav className="menu-bar">
                 <button className={activeGameIndex === 1 ? 'active2' : ''} onClick={() => setActiveButton(1)}>Games </button>
                 <button className={activeGameIndex === 2 ? 'active2' : ''} onClick={() => setActiveButton(2)}>Web Dev </button>
+                <button className={activeGameIndex === 3 ? 'active2' : ''} onClick={() => setActiveButton(3)}>Game+Web</button>
             </nav>
             <div className="content-container">
                     
@@ -79,11 +81,8 @@ const WebDev = () => (
     <WebChanger />
 );
 
-const Skills = () => (
-    <div>
-        <h2>Skills</h2>
-        <p>Skills and competencies...</p>
-    </div>
+const GameWeb = () => (
+    <GameWebChanger />
 );
 
 export default Logo;

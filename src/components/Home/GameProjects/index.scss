@@ -229,5 +229,18 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-height: 700px) {
+  .game-content {
+    .description {
+      h1 {
+        font-size: 15px;
+      }
+      p {
+        font-size: 15px;
+      }
+      li {
+        font-size: 15px;
+      }
+    }
+  }
 }
