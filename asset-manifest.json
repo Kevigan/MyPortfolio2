@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio2/static/css/main.11fdb5cc.css",
-    "main.js": "/MyPortfolio2/static/js/main.dd54e8d4.js",
+    "main.js": "/MyPortfolio2/static/js/main.39d00b26.js",
     "static/js/453.ace21015.chunk.js": "/MyPortfolio2/static/js/453.ace21015.chunk.js",
     "static/media/MyPic.jpg": "/MyPortfolio2/static/media/MyPic.23a1286fd374c039ca41.jpg",
     "static/media/Twitch_2.jpg": "/MyPortfolio2/static/media/Twitch_2.3884748a4f321243ddfa.jpg",
@@ -19,6 +19,7 @@
     "static/media/GAS_3.jpg": "/MyPortfolio2/static/media/GAS_3.062553b1203a91fe3104.jpg",
     "static/media/GAS_4.jpg": "/MyPortfolio2/static/media/GAS_4.a66e7e494381bc99513c.jpg",
     "static/media/API_Icon.png": "/MyPortfolio2/static/media/API_Icon.78d6a75d518e79a9eb27.png",
+    "static/media/Login_4.jpg": "/MyPortfolio2/static/media/Login_4.3b423ed3d4bc9f066a46.jpg",
     "static/media/GAS_1.jpg": "/MyPortfolio2/static/media/GAS_1.4a5861f3f84b8984a2cd.jpg",
     "static/media/Edge_3.jpg": "/MyPortfolio2/static/media/Edge_3.ed761b67f98cf2aab668.jpg",
     "static/media/GAS_2.jpg": "/MyPortfolio2/static/media/GAS_2.2af7f2bbdffeff799368.jpg",
@@ -34,6 +35,7 @@
     "static/media/Permalist_2.jpg": "/MyPortfolio2/static/media/Permalist_2.75a4425041282bca7aa3.jpg",
     "static/media/MoonCrush1.jpg": "/MyPortfolio2/static/media/MoonCrush1.f305921eaf07532327bf.jpg",
     "static/media/familyTracker_4.jpg": "/MyPortfolio2/static/media/familyTracker_4.6e932e6f5464c484cfdd.jpg",
+    "static/media/Login_2.jpg": "/MyPortfolio2/static/media/Login_2.bdd3c0651102006dbcc1.jpg",
     "static/media/Twitch_4.jpg": "/MyPortfolio2/static/media/Twitch_4.b6d83353ad001b15516e.jpg",
     "static/media/Twitch_1.jpg": "/MyPortfolio2/static/media/Twitch_1.5ec3bf92e421f1c2ed71.jpg",
     "static/media/OwnAPI_1.jpg": "/MyPortfolio2/static/media/OwnAPI_1.c6f6d5a5fcdc19ec42e3.jpg",
@@ -41,7 +43,9 @@
     "static/media/Edge_4.jpg": "/MyPortfolio2/static/media/Edge_4.5b7c9103f12118d13ab6.jpg",
     "static/media/Reactsymbol.png": "/MyPortfolio2/static/media/Reactsymbol.47c0c07d84dd5b50c3ff.png",
     "static/media/tinedog3.jpg": "/MyPortfolio2/static/media/tinedog3.08c48ebcd360e61321cc.jpg",
+    "static/media/Login_1.jpg": "/MyPortfolio2/static/media/Login_1.011aa123181646a87afa.jpg",
     "static/media/Permalist_4.jpg": "/MyPortfolio2/static/media/Permalist_4.eb51d62e9fb5b04d3bda.jpg",
+    "static/media/Login_3.jpg": "/MyPortfolio2/static/media/Login_3.81be18e2845106a46369.jpg",
     "static/media/OwnAPI_4.jpg": "/MyPortfolio2/static/media/OwnAPI_4.1b5e7f0799945e1c262d.jpg",
     "static/media/BandGenerator1.jpg": "/MyPortfolio2/static/media/BandGenerator1.0f48dec466634ab2dc84.jpg",
     "static/media/basicHTML.png": "/MyPortfolio2/static/media/basicHTML.5518129424daae282df2.png",
@@ -78,11 +82,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/MyPortfolio2/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/MyPortfolio2/index.html",
     "main.11fdb5cc.css.map": "/MyPortfolio2/static/css/main.11fdb5cc.css.map",
-    "main.dd54e8d4.js.map": "/MyPortfolio2/static/js/main.dd54e8d4.js.map",
+    "main.39d00b26.js.map": "/MyPortfolio2/static/js/main.39d00b26.js.map",
     "453.ace21015.chunk.js.map": "/MyPortfolio2/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11fdb5cc.css",
-    "static/js/main.dd54e8d4.js"
+    "static/js/main.39d00b26.js"
   ]
 }
