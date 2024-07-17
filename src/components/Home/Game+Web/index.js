@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import GameWeb1 from './GameWeb1';
+import GameWeb2 from './GameWeb2';
 
 import '../GameProjects/index.scss';
 
 const GameWebChanger = () => {
-    const games = [<GameWeb1 />]; 
+    const games = [<GameWeb1 />, <GameWeb2 />]; 
     const [activeGameIndex, setactiveGameIndex] = useState(0);
 
     const handleNextGame = () => {
@@ -23,7 +24,7 @@ const GameWebChanger = () => {
         <div className='top-game-container'>
             <nav>
                 <button className={activeGameIndex === 0 ? 'active' : ''} onClick={() => showGame(0)}>Pokemon API</button>
-                
+                <button className={activeGameIndex === 1 ? 'active' : ''} onClick={() => showGame(1)}>Login</button>
             </nav>
             <div className="Gamecontainer">
                 <nav className="navigator">

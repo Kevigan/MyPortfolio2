@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Pokemon_1 from '../../../assets/images/Pokemon_1.jpg';
-import Pokemon_2 from '../../../assets/images/Pokemon_2.jpg';
-import Pokemon_3 from '../../../assets/images/Pokemon_3.jpg';
-import Pokemon_4 from '../../../assets/images/Pokemon_4.jpg';
+import Login_1 from '../../../assets/images/Login_1.jpg';
+import Login_2 from '../../../assets/images/Login_2.jpg';
+import Login_3 from '../../../assets/images/Login_3.jpg';
+import Login_4 from '../../../assets/images/Login_4.jpg';
 
-const GameWeb1 = () => {
+const GameWeb2 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
     const [expanded2, setExpandedImage2] = useState(false);
     const [expanded4, setExpandedImage4] = useState(false);
@@ -34,31 +34,34 @@ const GameWeb1 = () => {
     return (
         <div className="game-content">
             <div className='description'>
-                <h1>Project Pokemon</h1>
-                <p>In this project I am using a public pokemon API for rendering the images and getting each stat like HP, Attack or Defense.
+                <h1>Project Login</h1>
+                <p>I created a player login for the game.
                 </p>
                 <p>
-                    I used Unity and C# for this project.
+                    I used Unity and C# for the client side.
                 </p>
+                <p>For the server side i used javascript executed in Node.js.
+                The web server is built using the Express framework.
+                I used the PostgreSQL database for storing the data with the pg-library.
+                Additionally i used PgAdmin.</p>
                 <ul>
                     <li>Engine: Unity</li>
                     <li>Plattform: PC</li>
-                    <li>Github-Link: <a href="https://github.com/Kevigan/Pokemon.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
-                    <li>API-Link: <a href="https://pokeapi.co" target="_blank" rel="noopener noreferrer"> Link</a></li>
+                    <li>Github-Link: <a href="https://github.com/Kevigan/Pokemon-Login.git" target="_blank" rel="noopener noreferrer"> Link</a></li>
                 </ul>
             </div>
             <div className='game-image-container'>
                 <div className='image-grid'>
-                    <img src={Pokemon_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={Pokemon_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={Pokemon_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
-                    <img src={Pokemon_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
+                    <img src={Login_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
+                    <img src={Login_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
+                    <img src={Login_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
+                    <img src={Login_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
                     <iframe className='video-frame'
                         width="560"
                         height="315"
-                        src="https://www.youtube.com/embed/cuK5V2GsojY"
+                        src="https://www.youtube.com/embed/UjkGcJAxVXk"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         mozallowfullscreen
@@ -71,4 +74,4 @@ const GameWeb1 = () => {
     );
 };
 
-export default GameWeb1;
+export default GameWeb2;
