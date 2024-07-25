@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio2/static/css/main.11fdb5cc.css",
-    "main.js": "/MyPortfolio2/static/js/main.39d00b26.js",
+    "main.js": "/MyPortfolio2/static/js/main.7aa7e69d.js",
     "static/js/453.ace21015.chunk.js": "/MyPortfolio2/static/js/453.ace21015.chunk.js",
     "static/media/MyPic.jpg": "/MyPortfolio2/static/media/MyPic.23a1286fd374c039ca41.jpg",
     "static/media/Twitch_2.jpg": "/MyPortfolio2/static/media/Twitch_2.3884748a4f321243ddfa.jpg",
@@ -26,6 +26,7 @@
     "static/media/Cloud_jumper_2.jpg": "/MyPortfolio2/static/media/Cloud_jumper_2.b406799bcd98edd6f944.jpg",
     "static/media/Cloud_jumper_3.jpg": "/MyPortfolio2/static/media/Cloud_jumper_3.2e8653be7ff6f1214af2.jpg",
     "static/media/Cloud_jumper_4.jpg": "/MyPortfolio2/static/media/Cloud_jumper_4.34501ae44a1dea738ddc.jpg",
+    "static/media/playerStats_1.jpg": "/MyPortfolio2/static/media/playerStats_1.44d33ff7caacdcfeaa7c.jpg",
     "static/media/MoonCrush4.jpg": "/MyPortfolio2/static/media/MoonCrush4.10e82bbe70d4aa82abc9.jpg",
     "static/media/Edge_2.jpg": "/MyPortfolio2/static/media/Edge_2.8ca128d668c5842d4c6e.jpg",
     "static/media/Pokemon_1.jpg": "/MyPortfolio2/static/media/Pokemon_1.694b11d1f67ee6981feb.jpg",
@@ -35,6 +36,7 @@
     "static/media/Permalist_2.jpg": "/MyPortfolio2/static/media/Permalist_2.75a4425041282bca7aa3.jpg",
     "static/media/MoonCrush1.jpg": "/MyPortfolio2/static/media/MoonCrush1.f305921eaf07532327bf.jpg",
     "static/media/familyTracker_4.jpg": "/MyPortfolio2/static/media/familyTracker_4.6e932e6f5464c484cfdd.jpg",
+    "static/media/playerStats_3.jpg": "/MyPortfolio2/static/media/playerStats_3.027a1c06c355abfb958a.jpg",
     "static/media/Login_2.jpg": "/MyPortfolio2/static/media/Login_2.bdd3c0651102006dbcc1.jpg",
     "static/media/Twitch_4.jpg": "/MyPortfolio2/static/media/Twitch_4.b6d83353ad001b15516e.jpg",
     "static/media/Twitch_1.jpg": "/MyPortfolio2/static/media/Twitch_1.5ec3bf92e421f1c2ed71.jpg",
@@ -43,7 +45,9 @@
     "static/media/Edge_4.jpg": "/MyPortfolio2/static/media/Edge_4.5b7c9103f12118d13ab6.jpg",
     "static/media/Reactsymbol.png": "/MyPortfolio2/static/media/Reactsymbol.47c0c07d84dd5b50c3ff.png",
     "static/media/tinedog3.jpg": "/MyPortfolio2/static/media/tinedog3.08c48ebcd360e61321cc.jpg",
+    "static/media/playerStats_2.jpg": "/MyPortfolio2/static/media/playerStats_2.2cb87a6998124d887970.jpg",
     "static/media/Login_1.jpg": "/MyPortfolio2/static/media/Login_1.011aa123181646a87afa.jpg",
+    "static/media/playerStats_4.jpg": "/MyPortfolio2/static/media/playerStats_4.9b616a0f23e39b173484.jpg",
     "static/media/Permalist_4.jpg": "/MyPortfolio2/static/media/Permalist_4.eb51d62e9fb5b04d3bda.jpg",
     "static/media/Login_3.jpg": "/MyPortfolio2/static/media/Login_3.81be18e2845106a46369.jpg",
     "static/media/OwnAPI_4.jpg": "/MyPortfolio2/static/media/OwnAPI_4.1b5e7f0799945e1c262d.jpg",
@@ -82,11 +86,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/MyPortfolio2/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/MyPortfolio2/index.html",
     "main.11fdb5cc.css.map": "/MyPortfolio2/static/css/main.11fdb5cc.css.map",
-    "main.39d00b26.js.map": "/MyPortfolio2/static/js/main.39d00b26.js.map",
+    "main.7aa7e69d.js.map": "/MyPortfolio2/static/js/main.7aa7e69d.js.map",
     "453.ace21015.chunk.js.map": "/MyPortfolio2/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11fdb5cc.css",
-    "static/js/main.39d00b26.js"
+    "static/js/main.7aa7e69d.js"
   ]
 }
