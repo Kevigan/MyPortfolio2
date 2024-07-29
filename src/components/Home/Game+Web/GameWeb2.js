@@ -61,7 +61,7 @@ const GameWeb2 = () => {
                     <iframe className='video-frame'
                         width="560"
                         height="315"
-                        src="https://www.youtube.com/embed/UjkGcJAxVXk"
+                        src="https://www.youtube.com/embed/hhCpir2SN2k"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         mozallowfullscreen
