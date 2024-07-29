@@ -9,7 +9,7 @@
   height: 90%;
   position: relative;
   right: 5%;
-  top:4%;
+  top: 4%;
   margin: auto;
   margin-top: 0;
   margin-bottom: 0;
@@ -44,7 +44,7 @@
 }
 
 .slider-image.show {
-  opacity: 1; /* Fully opaque when shown */
+  opacity: 1; 
 }
 
 .image-container {
@@ -54,7 +54,6 @@
 
 .menu-bar {
   background-color: rgba(114, 185, 252, 0.2);
-  //background-image: linear-gradient(to right, #4d9ace, #065ba0);
   color: none;
   display: flex;
   padding-top: 5px;
@@ -63,12 +62,11 @@
   justify-content: center;
   border-radius: 0%;
   border: 1px solid #ffd700;
-  //box-shadow: 0px 0px 4px 4px rgba(84, 213, 247, 0.8);
 }
 
 .menu-bar button {
   font-size: 13px;
-  background: 0 0 ;
+  background: 0 0;
   color: #fff;
   width: 100px;
   height: 40px;
@@ -94,9 +92,7 @@ button.active2 {
 
 .content-container {
   display: flex;
-  //box-shadow: 0px 0px 4px 4px rgba(184, 213, 247, 0.8);
- // background-image: linear-gradient(to right, #68bbf1, #1587e4);
- background-color: rgba(114, 185, 252, 0.2);
+  background-color: rgba(114, 185, 252, 0.2);
   justify-content: center;
   align-items: center;
   border: 1px solid #ffd700;
@@ -106,31 +102,9 @@ button.active2 {
   margin: 5px;
 }
 
-// @media (max-width: 1500px) {
-//   .logo-container {
-//     width: 80%;
-//   }
-// }
-
 /* Media query for smaller screens */
 @media (max-width: 1440px) {
   .logo-container {
     width: 70%;
   }
 }
-
-// /* Media query for even smaller screens */
-// @media (max-width: 768px) {
-//   .logo-container {
-//     width: 40%;
-//   }
-// }
-
-// /* Media query for mobile screens */
-// @media (max-width: 480px) {
-//   .logo-container {
-//     width: 95%;
-//     right: 2.5%;
-//     left: 2.5%;
-//   }
-// }

@@ -12,16 +12,16 @@ const Sidebar = () => (
             <p className='my-name'>Gilligan</p>
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" className='navLogo'/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="skill-link" to="/skills">
+            <NavLink activeclassname="active" className="skill-link" to="/skills">
                 <FontAwesomeIcon icon={faChartSimple} color="#4d4d4e" className='navLogo' />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" className='navLogo' />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
+            <NavLink activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" className='navLogo' />
             </NavLink>
         </nav>

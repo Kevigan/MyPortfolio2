@@ -14,21 +14,18 @@ const Web3 = () => {
         switch (index) {
             case 1:
                 setExpandedImage1(!expanded1);
-                console.log(index);
                 break;
             case 2:
                 setExpandedImage2(!expanded2);
-                console.log(index);
                 break;
             case 3:
                 setExpandedImage3(!expanded3);
-                console.log(index);
                 break;
             case 4:
                 setExpandedImage4(!expanded4);
-                console.log(index);
                 break;
-
+            default:
+                break;
         }
     };
     return (
@@ -43,13 +40,13 @@ const Web3 = () => {
             </div>
             <div className='game-image-container'>
                 <div className='image-grid'>
-                    <img src={Tindog_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={Tindog_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
-                    <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
+                    <img src={Tindog_1} className={expanded1 ? 'expanded' : 'normal'} alt="greeting Dog picture on phone" onClick={() => toggleExpand(1)} />
+                    <img src={Tindog_2} className={expanded2 ? 'expanded' : 'normal'} alt="adds" onClick={() => toggleExpand(2)} />
+                    <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="payment plan" onClick={() => toggleExpand(3)} />
+                    <img src={Tindog_3} className={expanded3 ? 'expanded' : 'normal'} alt="payment plan" onClick={() => toggleExpand(3)} />
                 </div>
                 <div class="pic-container">
-                    <img src={Bootstrap_Icon}  alt="Game 4"  />
+                    <img src={Bootstrap_Icon} alt="Game 4" />
                 </div>
             </div>
         </div>

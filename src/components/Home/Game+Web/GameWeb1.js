@@ -14,21 +14,18 @@ const GameWeb1 = () => {
         switch (index) {
             case 1:
                 setExpandedImage1(!expanded1);
-                console.log(index);
                 break;
             case 2:
                 setExpandedImage2(!expanded2);
-                console.log(index);
                 break;
             case 3:
                 setExpandedImage3(!expanded3);
-                console.log(index);
                 break;
             case 4:
                 setExpandedImage4(!expanded4);
-                console.log(index);
                 break;
-
+            default:
+                break;
         }
     };
     return (
@@ -49,10 +46,10 @@ const GameWeb1 = () => {
             </div>
             <div className='game-image-container'>
                 <div className='image-grid'>
-                    <img src={Pokemon_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={Pokemon_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={Pokemon_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
-                    <img src={Pokemon_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
+                    <img src={Pokemon_1} className={expanded1 ? 'expanded' : 'normal'} alt="Code 1" onClick={() => toggleExpand(1)} />
+                    <img src={Pokemon_2} className={expanded2 ? 'expanded' : 'normal'} alt="Code 2" onClick={() => toggleExpand(2)} />
+                    <img src={Pokemon_3} className={expanded3 ? 'expanded' : 'normal'} alt="Pokemon battle Salandit and politoed" onClick={() => toggleExpand(3)} />
+                    <img src={Pokemon_4} className={expanded4 ? 'expanded' : 'normal'} alt="Battle win politoed" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
                     <iframe className='video-frame'

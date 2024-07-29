@@ -6,26 +6,11 @@ import GameWebChanger from '../../Home/Game+Web/index';
 import './index.scss';
 
 const Logo = () => {
-    //const images = [DefendersOfTime, MoonCrush, MoonCrush2];
-    //const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    
     const [visible, setVisible] = useState(true);
 
     const [activeTab, setActiveTab] = useState('games');
     const [activeGameIndex, setactiveGameIndex] = useState(1);
-    console.log(activeGameIndex);
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setVisible(false);
-
-    //         // setTimeout(() => {
-    //         //     setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
-    //         //     setVisible(true);
-    //         // }, 500)
-    //     }, 5000);
-    //     return () => clearInterval(interval);
-
-    // }, [images.length])
 
     const renderContent = () => {
         switch (activeTab) {

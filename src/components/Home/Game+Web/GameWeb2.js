@@ -14,19 +14,17 @@ const GameWeb2 = () => {
         switch (index) {
             case 1:
                 setExpandedImage1(!expanded1);
-                console.log(index);
                 break;
             case 2:
                 setExpandedImage2(!expanded2);
-                console.log(index);
                 break;
             case 3:
                 setExpandedImage3(!expanded3);
-                console.log(index);
                 break;
             case 4:
                 setExpandedImage4(!expanded4);
-                console.log(index);
+                break;
+            default:
                 break;
 
         }
@@ -41,9 +39,9 @@ const GameWeb2 = () => {
                     I used Unity and C# for the client side.
                 </p>
                 <p>For the server side i used javascript executed in Node.js.
-                The web server is built using the Express framework.
-                I used the PostgreSQL database for storing the data with the pg-library.
-                Additionally i used PgAdmin.</p>
+                    The web server is built using the Express framework.
+                    I used the PostgreSQL database for storing the data with the pg-library.
+                    Additionally i used PgAdmin.</p>
                 <p>For making the password more secure, i am hashing it using bcrypt.</p>
                 <ul>
                     <li>Engine: Unity</li>
@@ -53,10 +51,10 @@ const GameWeb2 = () => {
             </div>
             <div className='game-image-container'>
                 <div className='image-grid'>
-                    <img src={Login_1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={Login_2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={Login_3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
-                    <img src={Login_4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
+                    <img src={Login_1} className={expanded1 ? 'expanded' : 'normal'} alt="Login panel" onClick={() => toggleExpand(1)} />
+                    <img src={Login_2} className={expanded2 ? 'expanded' : 'normal'} alt="Succesful loged in" onClick={() => toggleExpand(2)} />
+                    <img src={Login_3} className={expanded3 ? 'expanded' : 'normal'} alt="Create player panel" onClick={() => toggleExpand(3)} />
+                    <img src={Login_4} className={expanded4 ? 'expanded' : 'normal'} alt="PG Admin tables" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
                     <iframe className='video-frame'

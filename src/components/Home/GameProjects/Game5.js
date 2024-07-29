@@ -12,19 +12,17 @@ const Game5 = () => {
         switch (index) {
             case 1:
                 setExpandedImage1(!expanded1);
-                console.log(index);
                 break;
             case 2:
                 setExpandedImage2(!expanded2);
-                console.log(index);
                 break;
             case 3:
                 setExpandedImage3(!expanded3);
-                console.log(index);
                 break;
             case 4:
                 setExpandedImage4(!expanded4);
-                console.log(index);
+                break;
+            default:
                 break;
         }
     };
@@ -43,13 +41,13 @@ const Game5 = () => {
             </div>
             <div className='game-image-container'>
                 <div className='image-grid'>
-                    <img src={Simon1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={Simon3} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={Simon1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={Simon3} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
+                    <img src={Simon1} className={expanded1 ? 'expanded' : 'normal'} alt="Simon Level 1" onClick={() => toggleExpand(1)} />
+                    <img src={Simon3} className={expanded2 ? 'expanded' : 'normal'} alt="Simon Game Over" onClick={() => toggleExpand(2)} />
+                    <img src={Simon1} className={expanded1 ? 'expanded' : 'normal'} alt="Simon Level 1" onClick={() => toggleExpand(1)} />
+                    <img src={Simon3} className={expanded2 ? 'expanded' : 'normal'} alt="Simon Game Over" onClick={() => toggleExpand(2)} />
                 </div>
                 <div class="video-container">
-                    <iframe 
+                    <iframe
                         width="560"
                         height="315"
                         src="https://kevigan.github.io/Simon__Says/"

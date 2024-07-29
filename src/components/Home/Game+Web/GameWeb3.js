@@ -14,19 +14,17 @@ const GameWeb3 = () => {
         switch (index) {
             case 1:
                 setExpandedImage1(!expanded1);
-                console.log(index);
                 break;
             case 2:
                 setExpandedImage2(!expanded2);
-                console.log(index);
                 break;
             case 3:
                 setExpandedImage3(!expanded3);
-                console.log(index);
                 break;
             case 4:
                 setExpandedImage4(!expanded4);
-                console.log(index);
+                break;
+            default:
                 break;
 
         }
@@ -41,9 +39,9 @@ const GameWeb3 = () => {
                     I also made a webpage, where you can view the player stats and sort them.
                 </p>
                 <p>For the server side i used javascript executed in Node.js.
-                The web server is built using the Express framework.
-                I used the PostgreSQL database for storing the data with the pg-library.
-                Additionally i used PgAdmin.</p>
+                    The web server is built using the Express framework.
+                    I used the PostgreSQL database for storing the data with the pg-library.
+                    Additionally i used PgAdmin.</p>
                 <ul>
                     <li>Engine: Unity</li>
                     <li>Plattform: PC</li>
@@ -52,10 +50,10 @@ const GameWeb3 = () => {
             </div>
             <div className='game-image-container'>
                 <div className='image-grid'>
-                    <img src={PlayerStats1} className={expanded1 ? 'expanded' : 'normal'} alt="Game 1" onClick={() => toggleExpand(1)} />
-                    <img src={PlayerStats2} className={expanded2 ? 'expanded' : 'normal'} alt="Game 2" onClick={() => toggleExpand(2)} />
-                    <img src={PlayerStats3} className={expanded3 ? 'expanded' : 'normal'} alt="Game 3" onClick={() => toggleExpand(3)} />
-                    <img src={PlayerStats4} className={expanded4 ? 'expanded' : 'normal'} alt="Game 4" onClick={() => toggleExpand(4)} />
+                    <img src={PlayerStats1} className={expanded1 ? 'expanded' : 'normal'} alt="Player panel with simulating stats" onClick={() => toggleExpand(1)} />
+                    <img src={PlayerStats2} className={expanded2 ? 'expanded' : 'normal'} alt="PG Admin player stats table" onClick={() => toggleExpand(2)} />
+                    <img src={PlayerStats3} className={expanded3 ? 'expanded' : 'normal'} alt="PG Admin player achievements table" onClick={() => toggleExpand(3)} />
+                    <img src={PlayerStats4} className={expanded4 ? 'expanded' : 'normal'} alt="Web page for showing player stats" onClick={() => toggleExpand(4)} />
                 </div>
                 <div class="video-container">
                     <iframe className='video-frame'

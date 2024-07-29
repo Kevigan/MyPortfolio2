@@ -34,7 +34,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <img className='self-portrait' src={MyPic} alt='me' />
+                    <img className='self-portrait' src={MyPic} alt='Kevin' />
                 </div>
 
                 <div className='stage-cube-cont'>
