@@ -44,6 +44,7 @@ const GameWeb2 = () => {
                 The web server is built using the Express framework.
                 I used the PostgreSQL database for storing the data with the pg-library.
                 Additionally i used PgAdmin.</p>
+                <p>For making the password more secure, i am hashing it using bcrypt.</p>
                 <ul>
                     <li>Engine: Unity</li>
                     <li>Plattform: PC</li>
