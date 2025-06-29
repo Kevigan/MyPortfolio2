@@ -14,6 +14,8 @@ const Logo = () => {
 
     const renderContent = () => {
         switch (activeTab) {
+            case 'apps':
+                return <Apps />;
             case 'games':
                 return <Games />;
             case 'webDev':
@@ -30,12 +32,15 @@ const Logo = () => {
         console.log(index);
         switch(index){
             case 1:
+                setActiveTab('apps');
+                break;
+            case 2:
                 setActiveTab('games');
                 break;
-            case 2: 
+            case 3: 
                 setActiveTab('webDev');
                 break;
-            case 3:
+            case 4:
                 setActiveTab('skills');
                 break;
 
@@ -46,8 +51,9 @@ const Logo = () => {
         <div className="logo-container" >
             <nav className="menu-bar">
                 <button className={activeGameIndex === 1 ? 'active2' : ''} onClick={() => setActiveButton(1)}>Games </button>
-                <button className={activeGameIndex === 2 ? 'active2' : ''} onClick={() => setActiveButton(2)}>Web Dev </button>
-                <button className={activeGameIndex === 3 ? 'active2' : ''} onClick={() => setActiveButton(3)}>Game+Web</button>
+                <button className={activeGameIndex === 2 ? 'active2' : ''} onClick={() => setActiveButton(1)}>Apps </button>
+                <button className={activeGameIndex === 3 ? 'active2' : ''} onClick={() => setActiveButton(2)}>Web Dev </button>
+                <button className={activeGameIndex === 4 ? 'active2' : ''} onClick={() => setActiveButton(3)}>Game+Web</button>
             </nav>
             <div className="content-container">
                     
@@ -56,6 +62,11 @@ const Logo = () => {
         </div>
     )
 }
+
+const Apps = () => (
+
+    <AppChanger />
+);
 
 const Games = () => (
 
