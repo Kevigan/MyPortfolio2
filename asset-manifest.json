@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/MyPortfolio2/static/css/main.11fdb5cc.css",
-    "main.js": "/MyPortfolio2/static/js/main.0873a99f.js",
+    "main.js": "/MyPortfolio2/static/js/main.85d3a378.js",
     "static/js/453.ace21015.chunk.js": "/MyPortfolio2/static/js/453.ace21015.chunk.js",
     "static/media/MyPic.jpg": "/MyPortfolio2/static/media/MyPic.23a1286fd374c039ca41.jpg",
     "static/media/Twitch_2.jpg": "/MyPortfolio2/static/media/Twitch_2.3884748a4f321243ddfa.jpg",
     "static/media/Twitch_3.jpg": "/MyPortfolio2/static/media/Twitch_3.bbca6e8c3e6d33359e27.jpg",
     "static/media/Edge_1.jpg": "/MyPortfolio2/static/media/Edge_1.d0a58ee369db179eef6d.jpg",
+    "static/media/Chat1.png": "/MyPortfolio2/static/media/Chat1.facd885c123a055f1916.png",
     "static/media/DOT_3.jpg": "/MyPortfolio2/static/media/DOT_3.a7418278ad44f79aa578.jpg",
     "static/media/DOT_2.jpg": "/MyPortfolio2/static/media/DOT_2.309c40940fcb152fb940.jpg",
     "static/media/DOT_4.jpg": "/MyPortfolio2/static/media/DOT_4.5af867e13fc7b5922015.jpg",
+    "static/media/Chat2.png": "/MyPortfolio2/static/media/Chat2.96a85a1055142f5e444b.png",
+    "static/media/Chat4.png": "/MyPortfolio2/static/media/Chat4.6a78709e516344552c90.png",
     "static/media/DOT_1.jpg": "/MyPortfolio2/static/media/DOT_1.5695a81b3dc4c87644a0.jpg",
     "static/media/Pokemon_4.jpg": "/MyPortfolio2/static/media/Pokemon_4.160d12d528b63b52c529.jpg",
     "static/media/Pokemon_3.jpg": "/MyPortfolio2/static/media/Pokemon_3.1e6374511a6157aea40c.jpg",
@@ -31,6 +34,7 @@
     "static/media/MoonCrush4.jpg": "/MyPortfolio2/static/media/MoonCrush4.10e82bbe70d4aa82abc9.jpg",
     "static/media/Edge_2.jpg": "/MyPortfolio2/static/media/Edge_2.8ca128d668c5842d4c6e.jpg",
     "static/media/Pokemon_1.jpg": "/MyPortfolio2/static/media/Pokemon_1.694b11d1f67ee6981feb.jpg",
+    "static/media/Chat3.png": "/MyPortfolio2/static/media/Chat3.0151228bfd187829b3f8.png",
     "static/media/MoonCrush3.jpg": "/MyPortfolio2/static/media/MoonCrush3.4386fa2a397c921c6a17.jpg",
     "static/media/MoonCrush2.jpg": "/MyPortfolio2/static/media/MoonCrush2.0796e4a544711802564c.jpg",
     "static/media/Pokemon_2.jpg": "/MyPortfolio2/static/media/Pokemon_2.b577a2386b563397b576.jpg",
@@ -90,11 +94,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/MyPortfolio2/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/MyPortfolio2/index.html",
     "main.11fdb5cc.css.map": "/MyPortfolio2/static/css/main.11fdb5cc.css.map",
-    "main.0873a99f.js.map": "/MyPortfolio2/static/js/main.0873a99f.js.map",
+    "main.85d3a378.js.map": "/MyPortfolio2/static/js/main.85d3a378.js.map",
     "453.ace21015.chunk.js.map": "/MyPortfolio2/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11fdb5cc.css",
-    "static/js/main.0873a99f.js"
+    "static/js/main.85d3a378.js"
   ]
 }
