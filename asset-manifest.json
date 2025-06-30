@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio2/static/css/main.11fdb5cc.css",
-    "main.js": "/MyPortfolio2/static/js/main.49debccf.js",
+    "main.js": "/MyPortfolio2/static/js/main.0c5ae197.js",
     "static/js/453.ace21015.chunk.js": "/MyPortfolio2/static/js/453.ace21015.chunk.js",
     "static/media/MyPic.jpg": "/MyPortfolio2/static/media/MyPic.23a1286fd374c039ca41.jpg",
     "static/media/Twitch_2.jpg": "/MyPortfolio2/static/media/Twitch_2.3884748a4f321243ddfa.jpg",
@@ -70,6 +70,7 @@
     "static/media/BandGenerator1.jpg": "/MyPortfolio2/static/media/BandGenerator1.0f48dec466634ab2dc84.jpg",
     "static/media/basicHTML.png": "/MyPortfolio2/static/media/basicHTML.5518129424daae282df2.png",
     "static/media/OwnAPI_2.jpg": "/MyPortfolio2/static/media/OwnAPI_2.a9d5e6bd200ce7ddf78a.jpg",
+    "static/media/Task1.png": "/MyPortfolio2/static/media/Task1.9ea10bc488338be79b29.png",
     "static/media/Permalist_3.jpg": "/MyPortfolio2/static/media/Permalist_3.d4e97f7866211d816b76.jpg",
     "static/media/Portfolio3.jpg": "/MyPortfolio2/static/media/Portfolio3.f490cfad83534da57361.jpg",
     "static/media/API_2.jpg": "/MyPortfolio2/static/media/API_2.10a827c8626754f6d5dd.jpg",
@@ -81,11 +82,14 @@
     "static/media/gymIcon.png": "/MyPortfolio2/static/media/gymIcon.6156de56c466430f642d.png",
     "static/media/BandGenerator4.jpg": "/MyPortfolio2/static/media/BandGenerator4.5ca40bb5d9b1e6f247bf.jpg",
     "static/media/tinedog2.jpg": "/MyPortfolio2/static/media/tinedog2.4decd813a661f0170137.jpg",
+    "static/media/Task4.png": "/MyPortfolio2/static/media/Task4.75f453ead126c19d3f41.png",
     "static/media/html_Icon.png": "/MyPortfolio2/static/media/html_Icon.adc76ffaf0eea15a8c0b.png",
     "static/media/basicHTML2.png": "/MyPortfolio2/static/media/basicHTML2.2e859b50d6ce3b37e30c.png",
     "static/media/australiaIcon.png": "/MyPortfolio2/static/media/australiaIcon.ca9b612488a1f0780880.png",
     "static/media/API_3.png": "/MyPortfolio2/static/media/API_3.8caac94f941c00161acd.png",
     "static/media/API_4.png": "/MyPortfolio2/static/media/API_4.cb4f9c39e237e9afb3e0.png",
+    "static/media/Task3.png": "/MyPortfolio2/static/media/Task3.aa0bae820f8b1eed6935.png",
+    "static/media/Task2.png": "/MyPortfolio2/static/media/Task2.aaaac2319e63d4421133.png",
     "static/media/newZealandIcon.png": "/MyPortfolio2/static/media/newZealandIcon.9cbc3d315f5f4a39f306.png",
     "static/media/bootstrap_Icon.png": "/MyPortfolio2/static/media/bootstrap_Icon.e990dc47364cd84897dc.png",
     "static/media/helvetica-neu.ttf": "/MyPortfolio2/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -102,11 +106,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/MyPortfolio2/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/MyPortfolio2/index.html",
     "main.11fdb5cc.css.map": "/MyPortfolio2/static/css/main.11fdb5cc.css.map",
-    "main.49debccf.js.map": "/MyPortfolio2/static/js/main.49debccf.js.map",
+    "main.0c5ae197.js.map": "/MyPortfolio2/static/js/main.0c5ae197.js.map",
     "453.ace21015.chunk.js.map": "/MyPortfolio2/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11fdb5cc.css",
-    "static/js/main.49debccf.js"
+    "static/js/main.0c5ae197.js"
   ]
 }
