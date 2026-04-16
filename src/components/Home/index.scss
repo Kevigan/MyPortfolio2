@@ -2,7 +2,16 @@
   display: flex;
   width: 100%;
   height: 100%;
+  flex-direction: row; // default for desktop
+
+  @media (max-width: 768px) {
+    flex-direction: column; // stack text above logo
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+  }
 }
+
 .text-zone {
   width: 50%;
   position: relative;
@@ -106,3 +115,35 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .text-zone {
+    width: 100%;
+    position: static;
+    transform: none;
+    top: auto;
+    left: auto;
+    text-align: center;
+    padding: 10px;
+
+    h1 {
+      font-size: 26px;
+
+      img {
+        width: 80px;
+        margin: 10px auto;
+      }
+    }
+
+    h2 {
+      font-size: 13px;
+    }
+
+    .flat-button {
+      float: none;
+      margin: 20px auto 0;
+      display: inline-block;
+    }
+  }
+}
+

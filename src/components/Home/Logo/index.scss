@@ -108,3 +108,41 @@ button.active2 {
     width: 70%;
   }
 }
+
+@media (max-width: 768px) {
+  .logo-container {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 0 10px;
+    right: auto;
+    top: auto;
+  }
+
+  .slider-image {
+    min-height: auto;
+    max-height: 250px;
+    width: 100%;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .menu-bar {
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  .menu-bar button {
+    width: 45%;
+    margin: 5px 2.5%;
+  }
+
+  .content-container {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
