@@ -7,24 +7,24 @@ const Skills = () => {
             <h1>My Skills</h1>
             <div className='skill-content'>
                 <div className="skills-list">
-                    <Skill name="Unreal Engine" level={4} />
-                    <Skill name="Unity" level={3} />
-                    <Skill name="Godot 4" level={3} />
-                    <Skill name="C++" level={3} />
-                    <Skill name="C#" level={3} />
-                    <Skill name="Git" level={3} />
-                    <Skill name="HTML 5" level={3} />
-                    <Skill name="CSS" level={3} />
+                    <Skill name="Unreal Engine" />
+                    <Skill name="Unity" />
+                    <Skill name="Godot 4" />
+                    <Skill name="C++" />
+                    <Skill name="C#" />
+                    <Skill name="Git" />
+                    <Skill name="HTML 5" />
+                    <Skill name="CSS" />
                 </div>
                 <div className="skills-list">
-                    <Skill name="JS" level={3} />
-                    <Skill name="ES6" level={3} />
-                    <Skill name="React" level={3} />
-                    <Skill name="Bash" level={3} />
-                    <Skill name="Node.js" level={3} />
-                    <Skill name="PostgreSQL" level={3} />
-                    <Skill name="Express.js" level={2} />
-                    <Skill name="APIs" level={2} />
+                    <Skill name="JS" />
+                    <Skill name="ES6" />
+                    <Skill name="React" />
+                    <Skill name="Bash" />
+                    <Skill name="Node.js" />
+                    <Skill name="PostgreSQL" />
+                    <Skill name="Express.js" />
+                    <Skill name="APIs" />
                 </div>
             </div>
         </div>
