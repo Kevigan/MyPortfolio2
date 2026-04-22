@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio2/static/css/main.95f077ae.css",
-    "main.js": "/MyPortfolio2/static/js/main.081b3570.js",
+    "main.js": "/MyPortfolio2/static/js/main.37474288.js",
     "static/js/453.ace21015.chunk.js": "/MyPortfolio2/static/js/453.ace21015.chunk.js",
     "static/media/MyPic.jpg": "/MyPortfolio2/static/media/MyPic.23a1286fd374c039ca41.jpg",
     "static/media/Twitch_2.jpg": "/MyPortfolio2/static/media/Twitch_2.3884748a4f321243ddfa.jpg",
@@ -30,14 +30,17 @@
     "static/media/Login_4.jpg": "/MyPortfolio2/static/media/Login_4.d6254ff71d729cf87853.jpg",
     "static/media/Portfolio1.jpg": "/MyPortfolio2/static/media/Portfolio1.5b4f99c949530db58637.jpg",
     "static/media/GAS_3.jpg": "/MyPortfolio2/static/media/GAS_3.062553b1203a91fe3104.jpg",
+    "static/media/onlyOne_2.png": "/MyPortfolio2/static/media/onlyOne_2.5bac800ceab367f29073.png",
     "static/media/GAS_4.jpg": "/MyPortfolio2/static/media/GAS_4.a66e7e494381bc99513c.jpg",
     "static/media/API_Icon.png": "/MyPortfolio2/static/media/API_Icon.78d6a75d518e79a9eb27.png",
     "static/media/Jigsaw_2.png": "/MyPortfolio2/static/media/Jigsaw_2.f4159f509acaf2dccf4a.png",
     "static/media/GAS_1.jpg": "/MyPortfolio2/static/media/GAS_1.4a5861f3f84b8984a2cd.jpg",
+    "static/media/onlyOne_1.png": "/MyPortfolio2/static/media/onlyOne_1.6e00f284125495a35478.png",
     "static/media/Edge_3.jpg": "/MyPortfolio2/static/media/Edge_3.ed761b67f98cf2aab668.jpg",
     "static/media/GAS_2.jpg": "/MyPortfolio2/static/media/GAS_2.2af7f2bbdffeff799368.jpg",
     "static/media/Cloud_jumper_2.jpg": "/MyPortfolio2/static/media/Cloud_jumper_2.b406799bcd98edd6f944.jpg",
     "static/media/Cloud_jumper_3.jpg": "/MyPortfolio2/static/media/Cloud_jumper_3.2e8653be7ff6f1214af2.jpg",
+    "static/media/onlyOne_3.png": "/MyPortfolio2/static/media/onlyOne_3.85c21bb5b6e72c7744bc.png",
     "static/media/MainView.png": "/MyPortfolio2/static/media/MainView.15387516c8784e1b0d23.png",
     "static/media/Cloud_jumper_4.jpg": "/MyPortfolio2/static/media/Cloud_jumper_4.34501ae44a1dea738ddc.jpg",
     "static/media/playerStats_1.jpg": "/MyPortfolio2/static/media/playerStats_1.44d33ff7caacdcfeaa7c.jpg",
@@ -114,11 +117,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/MyPortfolio2/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/MyPortfolio2/index.html",
     "main.95f077ae.css.map": "/MyPortfolio2/static/css/main.95f077ae.css.map",
-    "main.081b3570.js.map": "/MyPortfolio2/static/js/main.081b3570.js.map",
+    "main.37474288.js.map": "/MyPortfolio2/static/js/main.37474288.js.map",
     "453.ace21015.chunk.js.map": "/MyPortfolio2/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95f077ae.css",
-    "static/js/main.081b3570.js"
+    "static/js/main.37474288.js"
   ]
 }
