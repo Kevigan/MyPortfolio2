@@ -4,7 +4,7 @@ import GameChanger from '../../Home/GameProjects/index';
 import WebChanger from '../../Home/WebProjects/index';
 import GameWebChanger from '../../Home/Game+Web/index';
 import UnityToolsChanger from '../../Home/UnityTools/index';
-import PlayStoreChanger from '../../Home/Play Store/index';
+import PlayStoreChanger from '../../Home/PlayStore/index';
 
 import './index.scss';
 
