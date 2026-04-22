@@ -4,6 +4,7 @@ import GameChanger from '../../Home/GameProjects/index';
 import WebChanger from '../../Home/WebProjects/index';
 import GameWebChanger from '../../Home/Game+Web/index';
 import UnityToolsChanger from '../../Home/UnityTools/index';
+import PlayStoreChanger from '../../Home/Play Store/index';
 
 import './index.scss';
 
@@ -23,6 +24,8 @@ const Logo = () => {
                 return <GameWeb />;
             case 'unityTools':
                 return <UnityTools />;
+            case 'playstore':
+                return <PlayStore />;
             default:
                 return <UnityTools />;
         }
@@ -39,13 +42,16 @@ const Logo = () => {
                 setActiveTab('games');
                 break;
             case 3:
-                setActiveTab('skills'); // Game+Web
+                setActiveTab('skills');
                 break;
             case 4:
                 setActiveTab('apps');
                 break;
             case 5:
                 setActiveTab('webDev');
+                break;
+            case 6:
+                setActiveTab('playstore');
                 break;
             default:
                 setActiveTab('unityTools');
@@ -71,6 +77,9 @@ const Logo = () => {
                 <button className={activeGameIndex === 5 ? 'active2' : ''} onClick={() => setActiveButton(5)}>
                     Web Dev
                 </button>
+                <button className={activeGameIndex === 6 ? 'active2' : ''} onClick={() => setActiveButton(6)}>
+                    Play Store
+                </button>
             </nav>
 
             <div className="content-container">
@@ -85,5 +94,6 @@ const Games = () => <GameChanger />;
 const WebDev = () => <WebChanger />;
 const GameWeb = () => <GameWebChanger />;
 const UnityTools = () => <UnityToolsChanger />;
+const PlayStore = () => <PlayStoreChanger />;
 
 export default Logo;
