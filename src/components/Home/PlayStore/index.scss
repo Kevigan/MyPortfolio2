@@ -1,0 +1,46 @@
+/* PlayStore specific layout */
+
+.game-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Left side text */
+.description {
+    width: 40%;
+    color: white;
+}
+
+/* Right side images */
+.game-image-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ?? THIS is what fixes your layout */
+.image-grid.three-images {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+}
+
+/* images */
+.image-grid.three-images img {
+    width: 32%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* optional expand effect */
+.image-grid.three-images img.expanded {
+    transform: scale(1.1);
+    z-index: 2;
+}
