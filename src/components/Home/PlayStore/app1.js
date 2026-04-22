@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import onlyOne_1 from '../../../assets/images/onlyOne_1.jpg';
-import onlyOne_2 from '../../../assets/images/onlyOne_2.jpg';
-import onlyOne_3 from '../../../assets/images/onlyOne_3.jpg';
+import onlyOne_1 from '../../../assets/images/onlyOne_1.png';
+import onlyOne_2 from '../../../assets/images/onlyOne_2.png';
+import onlyOne_3 from '../../../assets/images/onlyOne_3.png';
 
 const App1 = () => {
     const [expanded1, setExpandedImage1] = useState(false);
