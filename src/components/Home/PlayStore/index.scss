@@ -33,10 +33,10 @@
 
 .Gamecontainer {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
-    min-height: 650px;
+    min-height: auto;
 }
 
 .navigator {
@@ -64,7 +64,8 @@
     }
 }
 
-/* ONLY PlayStore section */
+/* ===== PlayStore Layout ===== */
+
 .playstore-content {
     display: flex;
     width: 100%;
@@ -74,6 +75,7 @@
     box-sizing: border-box;
 }
 
+/* LEFT TEXT */
 .playstore-description {
     width: 34%;
     padding: 20px 16px;
@@ -103,29 +105,32 @@
     }
 }
 
+/* RIGHT SIDE */
 .playstore-images-container {
     width: 66%;
-    padding: 0;
+    display: flex;
+    align-items: flex-start;
     box-sizing: border-box;
 }
 
+/* ?? FIXED IMAGE ROW */
 .playstore-image-row {
     display: flex;
     flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
     width: 100%;
-    gap: 0;
 }
 
+/* ?? FIXED IMAGES (NO CROPPING) */
 .playstore-image-row img {
     width: 33.3333%;
-    height: 620px;
-    object-fit: cover;
+    height: auto;
+    max-height: 620px;
+    object-fit: contain;
     display: block;
     cursor: pointer;
     border-left: 1px solid #000;
     box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .playstore-image-row img:first-child {
@@ -137,6 +142,7 @@
     z-index: 2;
 }
 
+/* ===== MOBILE ===== */
 @media (max-width: 900px) {
     .playstore-content {
         flex-direction: column;
@@ -158,16 +164,12 @@
 
     .playstore-image-row img {
         width: 100%;
-        height: auto;
+        max-height: none;
         border-left: none;
         border-top: 1px solid #000;
     }
 
     .playstore-image-row img:first-child {
         border-top: none;
-    }
-
-    .Gamecontainer {
-        min-height: auto;
     }
 }
