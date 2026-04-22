@@ -25,8 +25,8 @@ const App1 = () => {
     };
 
     return (
-        <div className="game-content">
-            <div className='description'>
+        <div className="playstore-content">
+            <div className="playstore-description">
                 <h1>OnlyOne</h1>
 
                 <p>
@@ -59,23 +59,23 @@ const App1 = () => {
                 </ul>
             </div>
 
-            <div className='game-image-container'>
-                <div className='image-grid three-images'>
+            <div className="playstore-images-container">
+                <div className="playstore-image-row">
                     <img
                         src={onlyOne_1}
-                        className={expanded1 ? 'expanded' : 'normal'}
+                        className={expanded1 ? 'playstore-expanded' : ''}
                         alt="OnlyOne screenshot 1"
                         onClick={() => toggleExpand(1)}
                     />
                     <img
                         src={onlyOne_2}
-                        className={expanded2 ? 'expanded' : 'normal'}
+                        className={expanded2 ? 'playstore-expanded' : ''}
                         alt="OnlyOne screenshot 2"
                         onClick={() => toggleExpand(2)}
                     />
                     <img
                         src={onlyOne_3}
-                        className={expanded3 ? 'expanded' : 'normal'}
+                        className={expanded3 ? 'playstore-expanded' : ''}
                         alt="OnlyOne screenshot 3"
                         onClick={() => toggleExpand(3)}
                     />
