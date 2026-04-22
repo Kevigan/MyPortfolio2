@@ -19,30 +19,32 @@ const PlayStore = () => {
     }
 
     return (
-        <div className='top-game-container'>
-            <nav>
-                <button
-                    className={activeGameIndex === 0 ? 'active' : ''}
-                    onClick={() => showGame(0)}
-                >
-                    OnlyOne
-                </button>
-            </nav>
-
-            <div className="Gamecontainer">
-                <nav className="navigator">
-                    <button className='navigator-button' onClick={handlePreviousGame}>
-                        ? Previous
+        <div className='playstore-section'>
+            <div className='top-game-container'>
+                <nav>
+                    <button
+                        className={activeGameIndex === 0 ? 'active' : ''}
+                        onClick={() => showGame(0)}
+                    >
+                        OnlyOne
                     </button>
                 </nav>
 
-                {apps[activeGameIndex]}
+                <div className="Gamecontainer">
+                    <nav className="navigator">
+                        <button className='navigator-button' onClick={handlePreviousGame}>
+                            ? Previous
+                        </button>
+                    </nav>
 
-                <nav className="navigator">
-                    <button className='navigator-button' onClick={handleNextGame}>
-                        Next ?
-                    </button>
-                </nav>
+                    {apps[activeGameIndex]}
+
+                    <nav className="navigator">
+                        <button className='navigator-button' onClick={handleNextGame}>
+                            Next ?
+                        </button>
+                    </nav>
+                </div>
             </div>
         </div>
     );

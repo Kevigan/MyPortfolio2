@@ -1,15 +1,20 @@
-.top-game-container {
+.playstore-section {
     width: 100%;
     height: 100%;
 }
 
-.top-game-container > nav {
+.playstore-section .top-game-container {
+    width: 100%;
+    height: 100%;
+}
+
+.playstore-section .top-game-container > nav {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-.top-game-container > nav button {
+.playstore-section .top-game-container > nav button {
     font-size: 13px;
     background: transparent;
     color: #fff;
@@ -26,12 +31,12 @@
     }
 }
 
-.top-game-container > nav button.active {
+.playstore-section .top-game-container > nav button.active {
     background-color: #ffd700;
     color: #000;
 }
 
-.Gamecontainer {
+.playstore-section .Gamecontainer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -39,7 +44,7 @@
     min-height: auto;
 }
 
-.navigator {
+.playstore-section .navigator {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +52,7 @@
     flex-shrink: 0;
 }
 
-.navigator-button {
+.playstore-section .navigator-button {
     font-size: 13px;
     background: transparent;
     color: #fff;
@@ -64,9 +69,7 @@
     }
 }
 
-/* ===== PlayStore Layout ===== */
-
-.playstore-content {
+.playstore-section .playstore-content {
     display: flex;
     width: 100%;
     max-width: 980px;
@@ -75,8 +78,7 @@
     box-sizing: border-box;
 }
 
-/* LEFT TEXT */
-.playstore-description {
+.playstore-section .playstore-description {
     width: 34%;
     padding: 20px 16px;
     color: #fff;
@@ -105,23 +107,20 @@
     }
 }
 
-/* RIGHT SIDE */
-.playstore-images-container {
+.playstore-section .playstore-images-container {
     width: 66%;
     display: flex;
     align-items: flex-start;
     box-sizing: border-box;
 }
 
-/* ?? FIXED IMAGE ROW */
-.playstore-image-row {
+.playstore-section .playstore-image-row {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
 }
 
-/* ?? FIXED IMAGES (NO CROPPING) */
-.playstore-image-row img {
+.playstore-section .playstore-image-row img {
     width: 33.3333%;
     height: auto;
     max-height: 620px;
@@ -133,43 +132,42 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.playstore-image-row img:first-child {
+.playstore-section .playstore-image-row img:first-child {
     border-left: none;
 }
 
-.playstore-expanded {
+.playstore-section .playstore-expanded {
     transform: scale(1.03);
     z-index: 2;
 }
 
-/* ===== MOBILE ===== */
 @media (max-width: 900px) {
-    .playstore-content {
+    .playstore-section .playstore-content {
         flex-direction: column;
     }
 
-    .playstore-description,
-    .playstore-images-container {
+    .playstore-section .playstore-description,
+    .playstore-section .playstore-images-container {
         width: 100%;
     }
 
-    .playstore-description {
+    .playstore-section .playstore-description {
         border-right: none;
         border-bottom: 2px solid #000;
     }
 
-    .playstore-image-row {
+    .playstore-section .playstore-image-row {
         flex-direction: column;
     }
 
-    .playstore-image-row img {
+    .playstore-section .playstore-image-row img {
         width: 100%;
         max-height: none;
         border-left: none;
         border-top: 1px solid #000;
     }
 
-    .playstore-image-row img:first-child {
+    .playstore-section .playstore-image-row img:first-child {
         border-top: none;
     }
 }
