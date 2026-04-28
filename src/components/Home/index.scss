@@ -119,40 +119,14 @@
 @media (max-width: 768px) {
   .home-page {
     align-items: stretch;
+    height: 100%;
     padding: 0;
-    gap: 24px;
+    gap: 0;
+    overflow: hidden;
   }
 
   .text-zone {
-    width: 100%;
-    position: static;
-    transform: none;
-    top: auto;
-    left: auto;
-    text-align: left;
-    padding: 0;
-    margin-bottom: 8px;
-
-    h1 {
-      font-size: 28px;
-      line-height: 1.15;
-
-      img {
-        width: 74px;
-        margin: 10px 0;
-      }
-    }
-
-    h2 {
-      font-size: 13px;
-      letter-spacing: 1.5px;
-    }
-
-    .flat-button {
-      float: none;
-      margin: 20px 0 0;
-      display: inline-block;
-    }
+    display: none;
   }
 }
 

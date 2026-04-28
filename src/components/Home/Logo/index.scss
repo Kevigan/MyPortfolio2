@@ -111,14 +111,20 @@ button.active2 {
 
 @media (max-width: 768px) {
   .logo-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
     position: static;
     width: 100%;
+    min-width: 0;
     height: auto;
     max-width: none;
     margin-top: 0;
     padding: 0;
     right: auto;
     top: auto;
+    height: 100%;
+    overflow: hidden;
   }
 
   .slider-image {
@@ -132,25 +138,38 @@ button.active2 {
   }
 
   .menu-bar {
+    flex: 0 0 auto;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: stretch;
     gap: 8px;
     padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   .menu-bar button {
     width: calc(50% - 4px);
-    min-height: 44px;
+    min-width: 0;
+    min-height: 64px;
     margin: 0;
+    font-size: 12px;
   }
 
   .content-container {
+    flex: 1 1 auto;
     flex-direction: column;
-    height: auto;
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 12px 8px;
     align-items: stretch;
+    min-width: 0;
+    min-height: 0;
+    overflow-x: auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
   }
 }
 

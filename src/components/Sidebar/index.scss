@@ -153,3 +153,13 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .nav-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+  }
+}

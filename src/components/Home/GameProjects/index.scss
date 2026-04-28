@@ -235,6 +235,8 @@
     justify-content: flex-start;
     gap: 12px;
     height: auto;
+    width: 100%;
+    min-width: 0;
 
     > nav:first-of-type {
       display: flex;
@@ -253,8 +255,7 @@
     }
 
     .navigator {
-      width: 100%;
-      margin-top: 0;
+      display: none;
     }
   }
 
@@ -262,6 +263,8 @@
     flex-direction: column;
     height: auto;
     gap: 12px;
+    width: 100%;
+    min-width: 0;
   }
 
   .navigator-button {
@@ -273,6 +276,7 @@
   .game-content {
     flex-direction: column;
     width: 100%;
+    min-width: 0;
     gap: 12px;
 
     .description {
@@ -280,6 +284,7 @@
       padding: 18px 16px;
       margin: 0;
       box-sizing: border-box;
+      min-width: 0;
 
       h1 {
         font-size: 24px;
@@ -296,6 +301,7 @@
 
     .game-image-container {
       width: 100%;
+      min-width: 0;
       padding: 0;
       gap: 12px;
 
@@ -306,7 +312,8 @@
 
         img.normal {
           max-height: none;
-          aspect-ratio: 16 / 10;
+          aspect-ratio: auto;
+          height: auto;
         }
 
         img.expanded {
