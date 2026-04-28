@@ -171,3 +171,76 @@
         border-top: none;
     }
 }
+
+@media (max-width: 768px) {
+    .playstore-section .top-game-container {
+        align-items: stretch;
+        justify-content: flex-start;
+        height: auto;
+        gap: 12px;
+    }
+
+    .playstore-section .top-game-container > nav {
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+
+    .playstore-section .top-game-container > nav button,
+    .playstore-section .navigator-button {
+        min-width: 0;
+        width: 100%;
+        max-width: 220px;
+        min-height: 44px;
+        font-size: 12px;
+    }
+
+    .playstore-section .Gamecontainer {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .playstore-section .navigator {
+        width: 100%;
+    }
+
+    .playstore-section .playstore-content {
+        max-width: none;
+    }
+
+    .playstore-section .playstore-description {
+        padding: 18px 16px;
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+
+        p,
+        ul {
+            font-size: 16px;
+            line-height: 1.45;
+        }
+
+        li {
+            overflow-wrap: anywhere;
+        }
+    }
+
+    .playstore-section .playstore-image-row {
+        gap: 10px;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+
+    .playstore-section .playstore-image-row img {
+        border-top: none;
+        border-left: none;
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+    }
+
+    .playstore-section .playstore-expanded {
+        transform: none;
+    }
+}

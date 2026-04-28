@@ -107,3 +107,52 @@
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
 }
+
+@media (max-width: 768px) {
+    .contact-page {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .map-wrap {
+        order: 1;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        float: none;
+    }
+
+    .info-map {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: min(220px, calc(100% - 32px));
+        font-size: 15px;
+        padding: 16px;
+
+        span {
+            font-size: 14px;
+            padding-top: 14px;
+        }
+    }
+
+    .text-zone {
+        order: 2;
+    }
+
+    .contact-form {
+        margin-top: 24px;
+
+        ul li.half {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .flat-button {
+            width: 100%;
+            float: none;
+            min-height: 44px;
+        }
+    }
+}

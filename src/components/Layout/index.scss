@@ -135,3 +135,44 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .tags {
+    left: 88px;
+    font-size: 16px;
+  }
+
+  .container {
+    width: calc(100% - 75px);
+    left: 75px;
+    top: 0;
+    height: auto;
+    min-height: 100%;
+    padding: 88px 16px 40px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .about-page,
+  .contact-page {
+    .text-zone {
+      position: static;
+      transform: none;
+      width: 100%;
+      max-height: none;
+      display: block;
+
+      h1 {
+        font-size: 44px;
+        margin-bottom: 24px;
+        left: 0;
+      }
+
+      p {
+        min-width: 0;
+        font-size: 18px;
+      }
+    }
+  }
+}

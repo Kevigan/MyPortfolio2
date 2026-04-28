@@ -114,8 +114,9 @@ button.active2 {
     position: static;
     width: 100%;
     height: auto;
-    margin-top: 20px;
-    padding: 0 10px;
+    max-width: none;
+    margin-top: 0;
+    padding: 0;
     right: auto;
     top: auto;
   }
@@ -132,17 +133,24 @@ button.active2 {
 
   .menu-bar {
     flex-wrap: wrap;
-    padding: 10px 0;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 10px;
   }
 
   .menu-bar button {
-    width: 45%;
-    margin: 5px 2.5%;
+    width: calc(50% - 4px);
+    min-height: 44px;
+    margin: 0;
   }
 
   .content-container {
     flex-direction: column;
     height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 12px 8px;
+    align-items: stretch;
   }
 }
 

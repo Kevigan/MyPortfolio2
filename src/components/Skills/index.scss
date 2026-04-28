@@ -124,3 +124,39 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .skills-page {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    padding-bottom: 24px;
+
+    h1 {
+      font-size: 44px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .skill-content {
+      width: 100%;
+      height: auto;
+      padding: 12px;
+      box-sizing: border-box;
+      align-items: stretch;
+
+      .skills-list {
+        padding: 16px 12px;
+
+        .skill-name {
+          font-size: 20px;
+        }
+
+        .star {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+}
