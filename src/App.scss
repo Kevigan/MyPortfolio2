@@ -23,6 +23,11 @@ textarea{
   font-family: 'Helvetica Neue';
 }
 
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
 .loader-active {
   display: block;
   position: absolute;

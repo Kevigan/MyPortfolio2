@@ -116,9 +116,9 @@ button.active2 {
     flex: 1 1 auto;
     position: static;
     width: 100%;
+    max-width: calc(100vw - 91px);
     min-width: 0;
     height: auto;
-    max-width: none;
     margin-top: 0;
     padding: 0;
     right: auto;
@@ -169,8 +169,9 @@ button.active2 {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    max-width: 100%;
     margin: 0;
-    padding: 8px 6px 12px;
+    padding: 8px 0 12px;
     align-items: stretch;
     min-width: 0;
     min-height: 0;

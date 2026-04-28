@@ -179,7 +179,7 @@
         height: 100%;
         gap: 12px;
         width: 100%;
-        max-width: 100%;
+        max-width: calc(100vw - 91px);
         min-width: 0;
         min-height: 0;
         box-sizing: border-box;
@@ -217,7 +217,7 @@
         flex-direction: column;
         gap: 12px;
         width: 100%;
-        max-width: 100%;
+        max-width: calc(100vw - 91px);
         box-sizing: border-box;
     }
 
@@ -230,6 +230,7 @@
         max-width: none;
         width: 100%;
         min-width: 0;
+        max-width: calc(100vw - 91px);
         box-sizing: border-box;
         overflow: hidden;
     }

@@ -120,9 +120,12 @@
   .home-page {
     align-items: stretch;
     height: 100%;
+    width: 100%;
+    max-width: calc(100vw - 91px);
     padding: 0;
     gap: 0;
     overflow: hidden;
+    box-sizing: border-box;
   }
 
   .text-zone {

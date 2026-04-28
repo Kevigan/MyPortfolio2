@@ -1,5 +1,7 @@
 html{
   font-size: 62.5%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -13,6 +15,11 @@ body {
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 
