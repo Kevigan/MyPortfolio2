@@ -97,27 +97,35 @@
 @media (max-width: 768px) {
   .about-page {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: 1fr;
     grid-template-areas:
-      'text portrait'
+      'portrait'
+      'text'
       'cube cube';
     align-items: start;
     gap: 24px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .about-page .text-zone {
     grid-area: text;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .about-page > div:nth-child(2) {
     grid-area: portrait;
+    justify-self: center;
     align-self: start;
-    margin-top: 8px;
+    margin-top: 0;
   }
 
   .self-portrait {
-    max-width: 132px;
-    width: 36vw;
+    max-width: 180px;
+    width: 100%;
     position: static;
     display: block;
   }
