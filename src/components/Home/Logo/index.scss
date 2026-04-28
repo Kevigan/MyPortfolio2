@@ -139,21 +139,26 @@ button.active2 {
 
   .menu-bar {
     flex: 0 0 auto;
-    flex-wrap: wrap;
-    justify-content: stretch;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     gap: 8px;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   .menu-bar button {
-    width: calc(50% - 4px);
-    min-width: 0;
-    min-height: 64px;
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 136px;
+    min-height: 52px;
     margin: 0;
     font-size: 12px;
+    padding: 0 18px;
+    white-space: nowrap;
   }
 
   .content-container {
@@ -166,7 +171,7 @@ button.active2 {
     align-items: stretch;
     min-width: 0;
     min-height: 0;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;

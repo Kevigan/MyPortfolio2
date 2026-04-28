@@ -185,15 +185,19 @@
     .playstore-section .top-game-container > nav {
         justify-content: flex-start;
         margin-bottom: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
     }
 
     .playstore-section .top-game-container > nav button,
     .playstore-section .navigator-button {
         min-width: 0;
-        width: 100%;
-        max-width: 220px;
-        min-height: 44px;
+        width: auto;
+        max-width: none;
+        min-height: 42px;
         font-size: 12px;
+        white-space: nowrap;
     }
 
     .playstore-section .Gamecontainer {
@@ -223,7 +227,7 @@
 
         p,
         ul {
-            font-size: 16px;
+            font-size: 14px;
             line-height: 1.45;
         }
 

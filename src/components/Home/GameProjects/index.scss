@@ -240,18 +240,25 @@
 
     > nav:first-of-type {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: flex-start;
       gap: 8px;
       margin-bottom: 0;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 2px;
     }
 
     button {
+      flex: 0 0 auto;
       font-size: 12px;
       letter-spacing: 1px;
-      min-height: 42px;
+      min-height: 38px;
+      min-width: 120px;
       margin: 0;
       padding: 8px 12px;
+      white-space: nowrap;
     }
 
     .navigator {
@@ -287,15 +294,16 @@
       min-width: 0;
 
       h1 {
-        font-size: 24px;
+        font-size: 22px;
         text-align: left;
         margin-bottom: 14px;
       }
 
       p,
       li {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.45;
+        overflow-wrap: anywhere;
       }
     }
 
@@ -309,11 +317,14 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 12px;
+        width: 100%;
 
         img.normal {
+          width: 100%;
           max-height: none;
           aspect-ratio: auto;
           height: auto;
+          object-fit: contain;
         }
 
         img.expanded {
@@ -328,8 +339,24 @@
 
       .video-container,
       .pic-container {
+        width: 100%;
         height: auto;
         min-height: 220px;
+      }
+
+      .video-container {
+        .video-frame,
+        img {
+          object-fit: contain;
+        }
+
+        .responsive-iframe {
+          width: 100% !important;
+          height: 220px !important;
+          transform: none;
+          -webkit-transform: none;
+          transform-origin: center;
+        }
       }
     }
   }
