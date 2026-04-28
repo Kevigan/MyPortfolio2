@@ -169,6 +169,10 @@
 
   .about-page,
   .contact-page {
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
     .text-zone {
       position: static;
       transform: none;
