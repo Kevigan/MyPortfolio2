@@ -189,18 +189,18 @@
     }
 
     .playstore-section .top-game-container > nav {
+        display: flex;
+        align-items: center;
         justify-content: flex-start;
         margin-bottom: 0;
         overflow-x: auto;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
-        position: sticky;
-        top: 0;
-        z-index: 4;
         background-color: rgba(44, 155, 199, 0.98);
         border: 1px solid #ffd700;
         padding: 8px 6px;
         box-sizing: border-box;
+        min-height: 56px;
     }
 
     .playstore-section .top-game-container > nav button,
@@ -226,6 +226,7 @@
     }
 
     .playstore-section .playstore-content {
+        display: block;
         max-width: none;
         width: 100%;
         min-width: 0;
@@ -234,6 +235,8 @@
     }
 
     .playstore-section .playstore-description {
+        display: block;
+        flex: none;
         padding: 18px 16px;
         min-width: 0;
         max-width: 100%;
@@ -257,6 +260,8 @@
     }
 
     .playstore-section .playstore-image-row {
+        display: flex;
+        flex-direction: column;
         gap: 10px;
         padding: 12px;
         box-sizing: border-box;

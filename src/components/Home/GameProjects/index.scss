@@ -246,6 +246,8 @@
 
     > nav:first-of-type {
       display: flex;
+      flex: 0 0 auto;
+      align-items: center;
       flex-wrap: nowrap;
       justify-content: flex-start;
       gap: 8px;
@@ -254,13 +256,11 @@
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
       padding-bottom: 2px;
-      position: sticky;
-      top: 0;
-      z-index: 4;
       background-color: rgba(44, 155, 199, 0.98);
       border: 1px solid #ffd700;
       padding: 8px 6px;
       box-sizing: border-box;
+      min-height: 56px;
     }
 
     button {
@@ -296,7 +296,7 @@
   }
 
   .game-content {
-    flex-direction: column;
+    display: block;
     width: 100%;
     max-width: 100%;
     min-width: 0;
@@ -304,6 +304,8 @@
     box-sizing: border-box;
 
     .description {
+      display: block;
+      flex: none;
       width: 100%;
       max-width: 100%;
       padding: 18px 16px;
@@ -328,14 +330,17 @@
     }
 
     .game-image-container {
+      display: block;
+      flex: none;
       width: 100%;
       max-width: 100%;
       min-width: 0;
-      padding: 0;
+      padding: 12px 0 0;
       gap: 12px;
       box-sizing: border-box;
 
       .image-grid {
+        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 12px;
