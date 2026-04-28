@@ -236,7 +236,9 @@
     gap: 12px;
     height: auto;
     width: 100%;
+    max-width: 100%;
     min-width: 0;
+    box-sizing: border-box;
 
     > nav:first-of-type {
       display: flex;
@@ -248,6 +250,13 @@
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
       padding-bottom: 2px;
+      position: sticky;
+      top: 0;
+      z-index: 4;
+      background-color: rgba(44, 155, 199, 0.98);
+      border: 1px solid #ffd700;
+      padding: 8px 6px;
+      box-sizing: border-box;
     }
 
     button {
@@ -271,7 +280,9 @@
     height: auto;
     gap: 12px;
     width: 100%;
+    max-width: 100%;
     min-width: 0;
+    box-sizing: border-box;
   }
 
   .navigator-button {
@@ -283,15 +294,19 @@
   .game-content {
     flex-direction: column;
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     gap: 12px;
+    box-sizing: border-box;
 
     .description {
       width: 100%;
+      max-width: 100%;
       padding: 18px 16px;
       margin: 0;
       box-sizing: border-box;
       min-width: 0;
+      overflow: hidden;
 
       h1 {
         font-size: 22px;
@@ -304,27 +319,34 @@
         font-size: 14px;
         line-height: 1.45;
         overflow-wrap: anywhere;
+        word-break: break-word;
       }
     }
 
     .game-image-container {
       width: 100%;
+      max-width: 100%;
       min-width: 0;
       padding: 0;
       gap: 12px;
+      box-sizing: border-box;
 
       .image-grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 12px;
         width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
 
         img.normal {
           width: 100%;
+          max-width: 100%;
           max-height: none;
           aspect-ratio: auto;
           height: auto;
           object-fit: contain;
+          box-sizing: border-box;
         }
 
         img.expanded {
@@ -340,14 +362,19 @@
       .video-container,
       .pic-container {
         width: 100%;
+        max-width: 100%;
         height: auto;
         min-height: 220px;
+        box-sizing: border-box;
       }
 
       .video-container {
         .video-frame,
         img {
+          width: 100%;
+          max-width: 100%;
           object-fit: contain;
+          box-sizing: border-box;
         }
 
         .responsive-iframe {
@@ -357,6 +384,13 @@
           -webkit-transform: none;
           transform-origin: center;
         }
+      }
+
+      .pic-container img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: contain;
+        box-sizing: border-box;
       }
     }
   }
