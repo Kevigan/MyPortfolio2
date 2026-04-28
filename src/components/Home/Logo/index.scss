@@ -175,9 +175,8 @@ button.active2 {
     min-width: 0;
     min-height: 0;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     box-sizing: border-box;
-    -webkit-overflow-scrolling: touch;
   }
 }
 

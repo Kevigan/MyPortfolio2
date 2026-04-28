@@ -176,12 +176,16 @@
     .playstore-section .top-game-container {
         align-items: stretch;
         justify-content: flex-start;
-        height: auto;
+        height: 100%;
         gap: 12px;
         width: 100%;
         max-width: 100%;
         min-width: 0;
+        min-height: 0;
         box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .playstore-section .top-game-container > nav {
